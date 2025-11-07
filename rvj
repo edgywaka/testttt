@@ -1,0 +1,615 @@
+	window.Animal = _0x3753d7;
+	window.GameObj = _0x1049f9;
+	window.BiomeShape = _0x5b730f;
+	window.River = _0x4e495d;
+var n = {
+      208: (n, e, t) => {
+        t.d(e, {
+          A: () => a
+        });
+        var o = t(601);
+        var i = t.n(o);
+        var s = t(314);
+        var r = t.n(s)()(i());
+        r.push([n.id, ".rvc-div {\n    width: 300px;\n    background-color: rgba(33, 29, 40, 0.66);\n    padding: 20px;\n    position: absolute;\n    border-radius: 15px;\n    z-index: 99999;\n}\n.rvc-title {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.rvc-page {\n    background-color: rgba(0, 0, 0, 0);\n}\n.rvc-t1 {\n    font-family: \"Oxanium\", sans-serif;\n    font-size: 30px;\n    font-weight: 900;\n    font-style: normal;\n    color: #7A5CF1;\n    letter-spacing: 2px;\n    margin-bottom: 20px;\n}\n.rvc-t2 {\n    font-family: \"Oxanium\", sans-serif;\n    font-size: 24px;\n    font-weight: 900;\n    font-style: normal;\n    color: #FFFFFF;\n    letter-spacing: 2px;\n    margin-bottom: 20px;\n}\n.rvc-navbar {\n    display: flex;\n    justify-content: center;\n    background-color: rgba(0, 0, 0, 0);\n    padding: 10px;\n}\n.rvc-navbar-button {\n    background-color: rgba(0, 0, 0, 0);\n    border: none; \n    color: white; \n    margin: 0 3px; \n    text-align: center;\n    text-decoration: none;\n    font-size: 16px;\n    cursor: pointer; \n    border-radius: 5px;\n    transition: background-color 0.3s;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 600;\n    font-style: normal;\n}\n.rvc-navbar-button-active {\n    background-color: #7A5CF1;\n    border: none; \n    color: white; \n    margin: 0 3px; \n    text-align: center;\n    text-decoration: none;\n    font-size: 16px;\n    cursor: pointer; \n    border-radius: 5px;\n    transition: background-color 0.3s;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 600;\n    font-style: normal;\n}\n.rvc-navbar-button:hover {\n    background-color: #7a5cf176; \n    border: none; \n    color: white; \n}\n.rvc-label {\n    font-size: 20px;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 500;\n    font-style: normal;\n    color: #7A5CF1;\n}\n.rvc-desc {\n    font-size: 15px;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 300;\n    font-style: normal;\n    color: #FFFFFF;\n}\n.rvc-option {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    padding: 10px 20px;\n}\n.rvc-option-text {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n}\n.rvc-switch {\n    position: relative;\n    display: inline-block;\n    width: 30px;\n    height: 16px;\n    margin-left: 20px;\n}\n\n.rvc-dropdowncontainer {\n    position: relative;\n    display: inline-block;\n    width: 60px;\n    height: 32px;\n    margin-left: 20px;\n}\n\n.rvc-input-container {\n    position: relative;\n    display: inline-block;\n    width: 48px;\n    height: 24px;\n    margin-left: 20px;\n    justify-content: center;\n    align-items: center;\n}\n  \n  /* Hide default HTML checkbox */\n.rvc-switch input {\n    opacity: 0;\n    width: 0;\n    height: 0;\n}\n\n/* The slider */\n.rvc-slider {\n    border-radius: 3px;\n    position: absolute;\n    cursor: pointer;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    outline: 3px solid #7A5CF1;\n    background-color: #4A4B57;\n    -webkit-transition: .4s;\n    transition: .4s;\n}\n.rvc-dropdown {\n    border-radius: 3px;\n    position: absolute;\n    cursor: pointer;\n    width: 70px;\n    height: 24px;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    outline: 3px solid #7A5CF1;\n    background-color: #4A4B57;\n    color: white;\n    -webkit-transition: .4s;\n    transition: .4s;\n    margin-left: 0px;\n}\n.rvc-dropdown:hover {\n    border-radius: 3px;\n    position: absolute;\n    cursor: pointer;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    outline: 3px solid #7A5CF1;\n    background-color: #595d93;\n    color: white;\n    -webkit-transition: .4s;\n    transition: .4s;\n}\n.rvc-slider:hover {\n    border-radius: 3px;\n    position: absolute;\n    cursor: pointer;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    outline: 3px solid #7A5CF1;\n    background-color: #595d93;\n    -webkit-transition: .4s;\n    transition: .4s;\n}\n\n.rvc-input {\n    width: auto;\n    height: auto;\n    padding: 2px 4px;\n    border-radius: 3px;\n    position: absolute;\n    cursor: pointer;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    outline: 3px solid #7A5CF1;\n    background-color: #4A4B57;\n    -webkit-transition: .4s;\n    transition: .4s;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 600;\n    font-style: normal;\n    color: #FFFFFF;\n}\n\n.rvc-input:hover {\n    padding: 2px 4px;\n    border-radius: 3px;\n    position: absolute;\n    cursor: pointer;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    outline: 3px solid #7A5CF1;\n    background-color: #595d93;\n    -webkit-transition: .4s;\n    transition: .4s;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 600;\n    font-style: normal;\n    color: #FFFFFF;\n}\n  \n.rvc-slider:before {\n    position: absolute;\n    content: \"\";\n    width: 14px;\n    height: 14px;\n    top: 1px;\n    left: 1px;\n    background-color: white;\n    -webkit-transition: .4s;\n    transition: .4s;\n    border-radius: 3px;\n}\n  \ninput:checked + .rvc-slider {\n    background-color: #7A5CF1;\n}\n  \ninput:focus + .rvc-slider {\n    box-shadow: 0 0 1px #7A5CF1;\n}\n  \ninput:checked + .rvc-slider:before {\n    -webkit-transform: translateX(15px);\n    -ms-transform: translateX(15px);\n    transform: translateX(15px);\n}\n\n.rvc-slider-container {\n    padding: 25px 0px;\n    display: flex;\n    align-items: center;\n    gap: 10px;\n}\n\n.rvc-range-label {\n    font-size: 15px;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 300;\n    font-style: normal;\n    color: #FFFFFF;\n}\n\n.rvc-slider-wrapper {\n    position: relative;\n    width: 300px;\n}\n\ninput[type=\"range\"] {\n    appearance: none;\n    -webkit-appearance: none;\n    width: 100%;\n    height: 10px;\n    background: linear-gradient(to right, #7A5CF1 50%, #ddd 50%);\n    outline: none;\n    border-radius: 5px;\n    cursor: pointer;\n    margin: 0;\n}\n\n/* Thumb styling */\ninput[type=\"range\"]::-webkit-slider-thumb {\n    appearance: none;\n    -webkit-appearance: none;\n    width: 20px;\n    height: 20px;\n    border-radius: 50%;\n    background: rgba(0, 0, 0, 0);\n    cursor: pointer;\n    position: relative;\n    z-index: 2;\n}\n\ninput[type=\"range\"]::-moz-range-thumb {\n    appearance: none;\n    -webkit-appearance: none;\n    width: 20px;\n    height: 20px;\n    border-radius: 50%;\n    background: rgba(0, 0, 0, 0);\n    cursor: pointer;\n}\n\n/* Show the value on thumb */\n.rvc-slider-thumb-value {\n    position: absolute;\n    left: 50%;\n    top: 0%;\n    transform: translateX(-50%);\n    background-color: #4A4B57;\n    padding: 2px 4px;\n    border-radius: 3px;\n    z-index: 1;\n    pointer-events: none;\n    font-size: 15px;\n    outline: 3px solid #7A5CF1;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 600;\n    font-style: normal;\n    color: #FFFFFF;\n}\n\n.rvc-slider-thumb-value:hover {\n    position: absolute;\n    left: 50%;\n    top: 0%;\n    transform: translateX(-50%);\n    background-color: #595d93;\n    padding: 2px 4px;\n    border-radius: 3px;\n    z-index: 1;\n    pointer-events: none;\n    font-size: 15px;\n    outline: 3px solid #7A5CF1;\n    font-family: \"Oxanium\", sans-serif;\n    font-weight: 600;\n    font-style: normal;\n    color: #FFFFFF;\n}\n\n.rvc-slider-wrapper input[type=\"range\"]:focus + .slider-thumb-value {\n    visibility: visible;\n}", ""]);
+        const a = r;
+      },
+      314: n => {
+        n.exports = function (n) {
+          var e = [];
+          e.toString = function () {
+            return this.map(function (e) {
+              var t = "";
+              var o = e[5] !== undefined;
+              if (e[4]) {
+                t += `@supports (${e[4]}) {`;
+              }
+              if (e[2]) {
+                t += `@media ${e[2]} {`;
+              }
+              if (o) {
+                t += `@layer${e[5].length > 0 ? ` ${e[5]}` : ""} {`;
+              }
+              t += n(e);
+              if (o) {
+                t += "}";
+              }
+              if (e[2]) {
+                t += "}";
+              }
+              if (e[4]) {
+                t += "}";
+              }
+              return t;
+            }).join("");
+          };
+          e.i = function (n, t, o, i, s) {
+            if (typeof n == "string") {
+              n = [[null, n, undefined]];
+            }
+            var r = {};
+            if (o) {
+              for (var a = 0; a < this.length; a++) {
+                var c = this[a][0];
+                if (c != null) {
+                  r[c] = true;
+                }
+              }
+            }
+            for (var l = 0; l < n.length; l++) {
+              var d = [].concat(n[l]);
+              if (!o || !r[d[0]]) {
+                if (s !== undefined) {
+                  if (d[5] !== undefined) {
+                    d[1] = `@layer${d[5].length > 0 ? ` ${d[5]}` : ""} {${d[1]}}`;
+                  }
+                  d[5] = s;
+                }
+                if (t) {
+                  if (d[2]) {
+                    d[1] = `@media ${d[2]} {${d[1]}}`;
+                    d[2] = t;
+                  } else {
+                    d[2] = t;
+                  }
+                }
+                if (i) {
+                  if (d[4]) {
+                    d[1] = `@supports (${d[4]}) {${d[1]}}`;
+                    d[4] = i;
+                  } else {
+                    d[4] = `${i}`;
+                  }
+                }
+                e.push(d);
+              }
+            }
+          };
+          return e;
+        };
+      },
+      601: n => {
+        n.exports = function (n) {
+          return n[1];
+        };
+      },
+      72: n => {
+        var e = [];
+        function t(n) {
+          var t = -1;
+          for (var o = 0; o < e.length; o++) {
+            if (e[o].identifier === n) {
+              t = o;
+              break;
+            }
+          }
+          return t;
+        }
+        function o(n, o) {
+          var s = {};
+          var r = [];
+          for (var a = 0; a < n.length; a++) {
+            var c = n[a];
+            var l = o.base ? c[0] + o.base : c[0];
+            var d = s[l] || 0;
+            var p = `${l} ${d}`;
+            s[l] = d + 1;
+            var u = t(p);
+            var v = {
+              css: c[1],
+              media: c[2],
+              sourceMap: c[3],
+              supports: c[4],
+              layer: c[5]
+            };
+            if (u !== -1) {
+              e[u].references++;
+              e[u].updater(v);
+            } else {
+              var g = i(v, o);
+              o.byIndex = a;
+              e.splice(a, 0, {
+                identifier: p,
+                updater: g,
+                references: 1
+              });
+            }
+            r.push(p);
+          }
+          return r;
+        }
+        function i(n, e) {
+          var t = e.domAPI(e);
+          t.update(n);
+          return function (e) {
+            if (e) {
+              if (e.css === n.css && e.media === n.media && e.sourceMap === n.sourceMap && e.supports === n.supports && e.layer === n.layer) {
+                return;
+              }
+              t.update(n = e);
+            } else {
+              t.remove();
+            }
+          };
+        }
+        n.exports = function (n, i) {
+          var s = o(n = n || [], i = i || {});
+          return function (n) {
+            n = n || [];
+            for (var r = 0; r < s.length; r++) {
+              var a = t(s[r]);
+              e[a].references--;
+            }
+            var c = o(n, i);
+            for (var l = 0; l < s.length; l++) {
+              var d = t(s[l]);
+              if (e[d].references === 0) {
+                e[d].updater();
+                e.splice(d, 1);
+              }
+            }
+            s = c;
+          };
+        };
+      },
+      659: n => {
+        var e = {};
+        n.exports = function (n, t) {
+          var o = function (n) {
+            if (e[n] === undefined) {
+              var t = document.querySelector(n);
+              if (window.HTMLIFrameElement && t instanceof window.HTMLIFrameElement) {
+                try {
+                  t = t.contentDocument.head;
+                } catch (n) {
+                  t = null;
+                }
+              }
+              e[n] = t;
+            }
+            return e[n];
+          }(n);
+          if (!o) {
+            throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+          }
+          o.appendChild(t);
+        };
+      },
+      540: n => {
+        n.exports = function (n) {
+          var e = document.createElement("style");
+          n.setAttributes(e, n.attributes);
+          n.insert(e, n.options);
+          return e;
+        };
+      },
+      56: (n, e, t) => {
+        n.exports = function (n) {
+          var e = t.nc;
+          if (e) {
+            n.setAttribute("nonce", e);
+          }
+        };
+      },
+      825: n => {
+        n.exports = function (n) {
+          if (typeof document == "undefined") {
+            return {
+              update: function () {},
+              remove: function () {}
+            };
+          }
+          var e = n.insertStyleElement(n);
+          return {
+            update: function (t) {
+              (function (n, e, t) {
+                var o = "";
+                if (t.supports) {
+                  o += `@supports (${t.supports}) {`;
+                }
+                if (t.media) {
+                  o += `@media ${t.media} {`;
+                }
+                var i = t.layer !== undefined;
+                if (i) {
+                  o += `@layer${t.layer.length > 0 ? ` ${t.layer}` : ""} {`;
+                }
+                o += t.css;
+                if (i) {
+                  o += "}";
+                }
+                if (t.media) {
+                  o += "}";
+                }
+                if (t.supports) {
+                  o += "}";
+                }
+                var s = t.sourceMap;
+                if (s && typeof btoa != "undefined") {
+                  o += `
+  /*# sourceMappingURL=data:application/json;base64,${btoa(unescape(encodeURIComponent(JSON.stringify(s))))} */`;
+                }
+                e.styleTagTransform(o, n, e.options);
+              })(e, n, t);
+            },
+            remove: function () {
+              (function (n) {
+                if (n.parentNode === null) {
+                  return false;
+                }
+                n.parentNode.removeChild(n);
+              })(e);
+            }
+          };
+        };
+      },
+      113: n => {
+        n.exports = function (n, e) {
+          if (e.styleSheet) {
+            e.styleSheet.cssText = n;
+          } else {
+            while (e.firstChild) {
+              e.removeChild(e.firstChild);
+            }
+            e.appendChild(document.createTextNode(n));
+          }
+        };
+      }
+    };
+    var e = {};
+    function t(o) {
+      var i = e[o];
+      if (i !== undefined) {
+        return i.exports;
+      }
+      var s = e[o] = {
+        id: o,
+        exports: {}
+      };
+      n[o](s, s.exports, t);
+      return s.exports;
+    }
+    t.n = n => {
+      var e = n && n.__esModule ? () => n.default : () => n;
+      t.d(e, {
+        a: e
+      });
+      return e;
+    };
+    t.d = (n, e) => {
+      for (var o in e) {
+        if (t.o(e, o) && !t.o(n, o)) {
+          Object.defineProperty(n, o, {
+            enumerable: true,
+            get: e[o]
+          });
+        }
+      }
+    };
+    t.o = (n, e) => Object.prototype.hasOwnProperty.call(n, e);
+    t.nc = undefined;
+    var o = t(72);
+    var i = t.n(o);
+    var s = t(825);
+    var r = t.n(s);
+    var a = t(659);
+    var c = t.n(a);
+    var l = t(56);
+    var d = t.n(l);
+    var p = t(540);
+    var u = t.n(p);
+    var v = t(113);
+    var g = t.n(v);
+    var m = t(208);
+    var f = {};
+    f.styleTagTransform = g();
+    f.setAttributes = d();
+    f.insert = c().bind(null, "head");
+    f.domAPI = r();
+    f.insertStyleElement = u();
+    i()(m.A, f);
+    if (m.A && m.A.locals) {
+      m.A.locals;
+    }
+    if (localStorage.getItem("RVJsettings")) {
+      try {
+        window.RVJsettings = JSON.parse(localStorage.getItem("RVJsettings"));
+      } catch (n) {
+        b();
+      }
+    } else {
+      b();
+    }
+    function b() {
+      window.RVJsettings = {
+        performance: false,
+        animations: true,
+        hideWorld: false,
+        turnSpeedEnabled: true,
+        turnSpeed: 120,
+        instantTurns: false,
+        fpsLimitEnabled: false,
+        fpsLimit: 120,
+        allDragon: false,
+        zoom: false,
+        drag: false,
+        alert: true,
+        toggleKey: "KeyN",
+        angleMode: 0,
+        backgroundColor: _0x327a8d
+      };
+    }
+    setTimeout(function () {
+      try {
+        (function () {
+          var n = 0;
+          var e = 0;
+          function t(n) {
+            return n * (Math.PI / 180);
+          }
+          if (!RVJsettings.angleMode) {
+            RVJsettings.angleMode = 1;
+            localStorage.setItem("RVJsettings", JSON.stringify(RVJsettings));
+          }
+          RVJsettings.angleMode = Number(RVJsettings.angleMode);
+          if (!RVJsettings.backgroundColor) {
+            RVJsettings.backgroundColor = _0x327a8d;
+            localStorage.setItem("RVJsettings", JSON.stringify(RVJsettings));
+          }
+          var o = new Image();
+          o.src = "https://mope.io/assets/s/0/skins/land/dragon/111/0/dragon.png";
+          _0x1049f9.nAngle = 0;
+          Animal.nAngle = 0;
+          _0x1049f9.prototype.updateAngle = function (n) {
+            var e = this.oType == 14 ? 180 : 90;
+            if (RVJsettings.angleMode == 5) {
+              this.angle = t(n + e);
+            } else {
+              var o = t(n + e);
+              this.oAngle = this.angle;
+              this.nAngle = o;
+              if (this.firstPosUpd) {
+                this.oAngle = this.nAngle = this.angle = o;
+              }
+            }
+          };
+          Animal.prototype.updateAngle = function (n) {
+            var e = t(n - 90);
+            this.oAngle = this.angle;
+            this.nAngle = e;
+            if (this.firstPosUpd) {
+              this.oAngle = this.angle = this.nAngle = e;
+            }
+          };
+          document.body.style.backgroundColor = RVJsettings.backgroundColor;
+          GameObj.prototype.lerpAngle = function () {
+            if (RVJsettings.turnSpeedEnabled) {
+              var e = _0x1c975a / (1000 / RVJsettings.turnSpeed);
+            } else {
+              e = 1;
+            }
+            var t;
+            this.angleDelta = function (n, e) {
+              let t = e - n;
+              while (t > Math.PI) {
+                t -= Math.PI * 2;
+              }
+              while (t < -Math.PI) {
+                t += Math.PI * 2;
+              }
+              return t;
+            }(this.angle, this.nAngle) || 0;
+            switch (RVJsettings.angleMode) {
+              case 1:
+                t = this.angleDelta * Math.min(e * 0.1, 1);
+                break;
+              case 2:
+                t = this.angleDelta * Math.min(1, 1 - Math.pow(2, e * -0.1));
+                break;
+              case 3:
+                t = this.angleDelta;
+                break;
+              case 0:
+                t = this.angleDelta * Math.min(1, 1 - 0.9 ** e);
+            }
+            this.angle += t;
+          };
+          const i = GameObj.prototype.draw;
+          GameObj.prototype.draw = function (n) {
+            if (RVJsettings.hideWorld) {
+              switch (this.oType) {
+                case 2:
+                case 14:
+                  break;
+                default:
+                  return;
+              }
+            }
+            i.call(this, n);
+          };
+          const s = Animal.prototype.basicDrawSkinImg;
+          Animal.prototype.basicDrawSkinImg = function () {
+            if (RVJsettings.allDragon) {
+              var n = this.loadedSkinImg;
+              this.loadedSkinImg = o;
+              s.call(this);
+              this.loadedSkinImg = n;
+            } else {
+              s.call(this);
+            }
+          };
+          const r = BiomeShape.prototype.jaggedSidesForRect;
+          BiomeShape.prototype.jaggedSidesForRect = function () {
+            if (!RVJsettings.performance) {
+              r.call(this);
+            }
+          };
+          const a = River.prototype.jaggedSidesForRect;
+          River.prototype.jaggedSidesForRect = function (n) {
+            if (!RVJsettings.performance) {
+              a.call(this, n);
+            }
+          };
+          document.getElementById("gCanvas").addEventListener("wheel", function (n) {
+            if (RVJsettings.zoom && document.activeElement != document.querySelector("#chatinput")) {
+              if (n.deltaY < 0) {
+                camzoom_n += 0.1;
+              } else if (camzoom_n >= 0.2) {
+                camzoom_n -= 0.1;
+              }
+            }
+          });
+          document.addEventListener("keydown", function (n) {
+            if (n.code == "KeyM" && document.activeElement != document.querySelector("#chatinput") && RVJsettings.animations) {
+              var e = document.getElementById("startMenuWrapper");
+              if (e.style.display == "none") {
+                e.style.display = "block";
+              } else {
+                e.style.display = "none";
+              }
+            }
+          });
+        })();
+        (function () {
+          const n = document.createElement("div");
+          n.innerHTML = "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"> <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin> <link href=\"https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap\" rel=\"stylesheet\"> <div class=\"rvc-div\" id=\"rvc-menu\"> <div class=\"rvc-title\"> <h1 class=\"rvc-t1\">RVJ </h1> <h1 class=\"rvc-t2\"> Modpack</h1> </div> <div class=\"rvc-navbar\"> <button class=\"rvc-navbar-button\" id=\"rvc-nav1\">Optimization</button> <button class=\"rvc-navbar-button\" id=\"rvc-nav2\">Movement</button> <button class=\"rvc-navbar-button\" id=\"rvc-nav3\">Misc</button> </div> <div class=\"rvc-page\" id=\"rvcpage1\"> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Performance Mode</span> <span class=\"rvc-desc\">Optimize rendering</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_performance\"> <span class=\"rvc-slider\"></span> </label> </div> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Hide World</span> <span class=\"rvc-desc\">Hide everything in arena</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_hideWorld\"> <span class=\"rvc-slider\"></span> </label> </div> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">All Dragon</span> <span class=\"rvc-desc\">Set all skins to drag for 1v1</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_allDragon\"> <span class=\"rvc-slider\"></span> </label> </div> </div> <div class=\"rvc-page\" id=\"rvcpage2\"> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Turn Speed</span> <span class=\"rvc-desc\">Change your turn speed</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_turnSpeedEnabled\"> <span class=\"rvc-slider\"></span> </label> </div> <div class=\"rvc-slider-container\" id=\"rvcSliderContainer_turnSpeed\"> <span class=\"rvc-range-label min\">30</span> <div class=\"rvc-slider-wrapper\"> <input type=\"range\" id=\"rvcSlider_turnSpeed\" min=\"30\" max=\"540\" value=\"90\" step=\"1\"> <div class=\"rvc-slider-thumb-value\" id=\"rvcSlider_thumb\">120</div> </div> <span class=\"rvc-range-label max\">540</span> </div> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">FPS Limit</span> <span class=\"rvc-desc\">Set a limit to your FPS</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_fpsLimitEnabled\"> <span class=\"rvc-slider\"></span> </label> </div> <div class=\"rvc-slider-container\" id=\"rvcSliderContainer_fpsLimit\"> <span class=\"rvc-range-label min\">30</span> <div class=\"rvc-slider-wrapper\"> <input type=\"range\" id=\"rvcSlider_fpsLimit\" min=\"30\" max=\"540\" value=\"90\" step=\"1\"> <div class=\"rvc-slider-thumb-value\" id=\"rvcSlider_thumb2\">120</div> </div> <span class=\"rvc-range-label max\">540</span> </div> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Smoothing mode</span> <span class=\"rvc-desc\">Angle interpolation</span> </div> <label class=\"rvc-switch\"> <select id=\"rvcDropdown_angleMode\" class=\"rvc-dropdown\"> <option value=\"0\">Ease-out</option> <option value=\"1\">Linear</option> <option value=\"2\">Ease-in</option> <option value=\"3\">Instant</option> </select> </label> </div> </div> <div class=\"rvc-page\" id=\"rvcpage3\"> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Zoom</span> <span class=\"rvc-desc\">Zoom with scroll wheel</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_zoom\"> <span class=\"rvc-slider\"></span> </label> </div> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Background Color</span> <span class=\"rvc-desc\">Set arena background color (reset with black)</span> </div> <label class=\"rvc-dropdowncontainer\"> <input type=\"color\" id=\"rvcInput_backgroundColor\" value=\"#3FBA54\"/> </label> </div> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Toggle Game Menu</span> <span class=\"rvc-desc\">M Key</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_animations\"> <span class=\"rvc-slider\"></span> </label> </div> <div class=\"rvc-option\"> <div class=\"rvc-option-text\"> <span class=\"rvc-label\">Enable Dragging</span> <span class=\"rvc-desc\">Drag and position the UI around</span> </div> <label class=\"rvc-switch\"> <input type=\"checkbox\" id=\"rvcOptions_drag\"> <span class=\"rvc-slider\"></span> </label> </div> </div> </div>";
+          document.body.appendChild(n);
+          const e = document.getElementById("rvc-menu");
+          const t = document.getElementById("rvcSlider_turnSpeed");
+          const o = document.getElementById("rvcSlider_thumb");
+          function i() {
+            const n = t.value;
+            o.textContent = n;
+            const e = (n - t.min) / (t.max - t.min) * 100;
+            t.style.background = `linear-gradient(to right, #7A5CF1 ${e}%, #4A4B57 ${e}%)`;
+            o.style.left = `calc(${e}% + (${8 - e * 0.15}px))`;
+            RVJsettings.turnSpeed = n;
+            localStorage.setItem("RVJsettings", JSON.stringify(RVJsettings));
+          }
+          t.value = RVJsettings.turnSpeed;
+          t.addEventListener("input", i);
+          const s = document.getElementById("rvcSlider_fpsLimit");
+          const r = document.getElementById("rvcSlider_thumb2");
+          function a() {
+            const n = s.value;
+            r.textContent = n;
+            const e = (n - s.min) / (s.max - s.min) * 100;
+            s.style.background = `linear-gradient(to right, #7A5CF1 ${e}%, #4A4B57 ${e}%)`;
+            r.style.left = `calc(${e}% + (${8 - e * 0.15}px))`;
+            RVJsettings.fpsLimit = n;
+            localStorage.setItem("RVJsettings", JSON.stringify(RVJsettings));
+          }
+          s.value = RVJsettings.fpsLimit;
+          s.addEventListener("input", a);
+          document.getElementById("rvcDropdown_angleMode").addEventListener("change", n => {
+            RVJsettings.angleMode = Number(document.getElementById("rvcDropdown_angleMode").value);
+            localStorage.setItem("RVJsettings", JSON.stringify(RVJsettings));
+          });
+          document.getElementById("rvcInput_backgroundColor").addEventListener("input", n => {
+            RVJsettings.backgroundColor = document.getElementById("rvcInput_backgroundColor").value;
+            if (RVJsettings.backgroundColor == "#FFFFFF" || RVJsettings.backgroundColor == "#000000") {
+              RVJsettings.backgroundColor = _0x327a8d;
+            }
+            document.body.style.backgroundColor = RVJsettings.backgroundColor;
+            localStorage.setItem("RVJsettings", JSON.stringify(RVJsettings));
+          });
+          document.addEventListener("keydown", function (n) {
+            if (n.code == "KeyN" && document.activeElement != document.querySelector("#chatinput")) {
+              if (e.style.display == "none") {
+                e.style.display = "block";
+              } else {
+                e.style.display = "none";
+              }
+            }
+          });
+          i();
+          a();
+          for (let n = 1; n <= 3; n++) {
+            document.getElementById("rvc-nav" + n).addEventListener("click", function () {
+              c(n);
+            });
+          }
+          function c(n) {
+            for (let e = 1; e <= 3; e++) {
+              const t = document.getElementById("rvcpage" + e);
+              const o = document.getElementById("rvc-nav" + e);
+              if (n == e) {
+                t.style.display = "block";
+                o.classList.add("rvc-navbar-button-active");
+                o.classList.remove("rvc-navbar-button");
+              } else {
+                t.style.display = "none";
+                o.classList.remove("rvc-navbar-button-active");
+                o.classList.add("rvc-navbar-button");
+              }
+            }
+          }
+          c(1);
+          document.getElementById("rvcSliderContainer_turnSpeed").style.display = RVJsettings.turnSpeedEnabled ? "flex" : "none";
+          document.getElementById("rvcSliderContainer_fpsLimit").style.display = RVJsettings.fpsLimitEnabled ? "flex" : "none";
+          document.getElementById("rvcDropdown_angleMode").value = RVJsettings.angleMode;
+          const l = document.querySelectorAll("[id*=\"rvcOptions\"]");
+          for (let n = 0; n < l.length; n++) {
+            const e = l[n];
+            const t = l[n].id.replace("rvcOptions_", "");
+            e.checked = RVJsettings[t];
+            e.addEventListener("change", function () {
+              RVJsettings[t] = e.checked;
+              localStorage.setItem("RVJsettings", JSON.stringify(RVJsettings));
+              if (t == "turnSpeedEnabled") {
+                document.getElementById("rvcSliderContainer_turnSpeed").style.display = RVJsettings.turnSpeedEnabled ? "flex" : "none";
+              } else if (t == "fpsLimitEnabled") {
+                document.getElementById("rvcSliderContainer_fpsLimit").style.display = RVJsettings.fpsLimitEnabled ? "flex" : "none";
+              }
+            });
+          }
+          (function (n) {
+            let e = false;
+            n.addEventListener("mousedown", function (t) {
+              if (RVJsettings.drag && (t.target == n || t.target.contentEditable != "true" && !["INPUT", "BUTTON"].includes(t.target.tagName))) {
+                function o(t) {
+                  if (e) {
+                    n.style.position = "absolute";
+                    n.style.left = t.clientX + "px";
+                    n.style.top = t.clientY + "px";
+                  }
+                }
+                function i() {
+                  e = false;
+                  document.removeEventListener("mousemove", o);
+                  document.removeEventListener("mouseup", i);
+                }
+                t.preventDefault();
+                e = true;
+                document.addEventListener("mousemove", o);
+                document.addEventListener("mouseup", i);
+              }
+            });
+          })(document.getElementById("rvc-menu"));
+        })();
+      } catch (n) {
+        alert("Error injecting RVJ: " + n);
+      }
+    }, 10);
+  }
+};
