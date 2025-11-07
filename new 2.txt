@@ -1,0 +1,778 @@
+function _0x161a(_0x1f46d7, _0x316c98) {
+    var _0xcdbd35 = _0xcdbd();
+    return _0x161a = function(_0x161aba, _0x488ea9) {
+        _0x161aba = _0x161aba - 0xe5;
+        var _0x530f89 = _0xcdbd35[_0x161aba];
+        return _0x530f89;
+    }, _0x161a(_0x1f46d7, _0x316c98);
+}
+
+function _0xcdbd() {
+    var _0x2d0cc9 = ['backgroundOpacity', 'Mouse\x20locked', 'menuVisible', 'waterSpamActive', 'updateAngle', 'deltaTime', 'min', 'setProperty', 'activeElement', 'customWaterColor', '#FFD700', 'nickName', '1078996IwJaGE', 'Spin\x20speed\x20control\x20disabled', 'mouseLocked', '--theme-color-lighter', '#3FBA54', 'remove', 'concat', 'winsAddedInNick', 'drawSkinImg', 'Thistle', 'displayWinsEnabled', 'div', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>All\x20Dragons</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Set\x20all\x20skins\x20to\x20dragons</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22allDragonsToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Hide\x20World</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Hide\x20everything\x20in\x20arena\x20except\x20players</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22hideWorldToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Player\x20Transparency</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Toggle\x20player\x20transparency\x20with\x20key</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22playerTransparencyKeyInput\x22\x20maxlength=\x221\x22\x20class=\x22rgz-text-input\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x20expanded\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Water\x20Color</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Change\x20water\x20color\x20(black\x20to\x20reset)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22color\x22\x20id=\x22waterColorPicker\x22\x20value=\x22', '#008080', '#4854A2', '.rgz-text-input', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Background\x20Color</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Change\x20arena\x20background\x20(black\x20to\x20reset)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22color\x22\x20id=\x22backgroundColorPicker\x22\x20value=\x22', 'rgz-nav-btn', '\x0a(wins:', 'nickSpooferInput', 'pow', 'rgz-nav-btn\x20active', 'removeEventListener', 'add', 'lockEnabled', 'opacity', 'fadeOut\x200.3s\x20forwards', 'draw', 'uiThemeColorPicker', '\x0a\x20\x20\x20\x20\x20\x20@import\x20url(\x27https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap\x27);\x0a\x0a\x20\x20\x20\x20\x20\x20:root\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20--theme-color:\x20', '[RGZ\x20Modpack]\x20Spin\x20speed\x20functionality\x20initialized', 'rgz_', 'max', 'Purple', 'getElementById', 'toggle', 'getBoundingClientRect', 'Nick\x20Spoofer\x20disabled', '#000000', 'RGZ\x20Modpack\x201.0\x20loaded', '\x22\x20title=\x22', 'toggles', '1622427iXzkho', 'buttons', 'Zoom\x20feature\x20disabled', '.rgz-feature-header', 'BUTTON', 'addEventListener', 'length', 'Animal', 'waterSpamToggle', 'classList', 'Show\x20main\x20menu\x20key\x20set\x20to\x20\x27', 'displayWins', 'undefined', '#FFC0CB', 'containers', 'DOMContentLoaded', 'display:\x20none;\x20max-height:\x200;', 'left', 'beforeend', 'menuKeyInput', 'rgz-nav3', 'lock', 'waterSpamEnabled', 'a0_0x1f7f84', 'spoofedNickColor', 'nickSpoofer', 'forEach', 'toLowerCase', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-label\x22>Color</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22color\x22\x20id=\x22nickColorPicker\x22\x20value=\x22', 'body', 'https://mope.io/assets/s/0/skins/land/dragon/111/0/dragon.png', 'spinSpeedValue', 'setItem', 'opacityRange', 'input[type=\x22checkbox\x22]', 'spinSpeedRange', 'mouseup', '[RGZ\x20Modpack]\x20Resetting\x20all\x20nicknames...', 'wheel', 'currentNotificationTimeout', 'log', 'notification', 'floor', 'fixed', '[RGZ\x20Modpack]\x20Updating\x20nick/color:', 'INPUT', 'Nick\x20Spoofer\x20enabled', '.rgz-feature-content', 'enabled', 'spinSpeedToggle', 'drawNickName', '.rgz-switch', 'prototype', 'All\x20Dragons\x20feature\x20enabled', '#00FF00', 'zoom', 'click', 'textContent', 'Error\x20updating\x20XP\x20display:', '[RGZ\x20Modpack]\x20Error\x20updating\x20names:', 'Player\x20transparency\x20enabled', 'GameObj', 'settings', 'a0_0x525322', 'Nickname\x20updated\x20to\x20\x22', 'waterColor', 'mousemove', 'nickSpooferToggle', '4187449IrwhkT', 'querySelectorAll', '#f1c40f', 'zoomToggle', 'toggleMenu', '[RGZ\x20Modpack]\x201v1\x20wins\x20display\x20deactivated', 'active', 'animation', '\x22></div>', 'color', 'some', 'rgzpage2', 'Cyan', 'fillText', 'White', 'nickColorPalette', '[RGZ\x20Modpack]\x20Error\x20updating\x20animal\x20nick:', 'Linear', '5px', 'Water\x20spam\x20key\x20set\x20to\x20\x27', '[RGZ\x20Modpack]\x20Background\x20color\x20feature\x20initialized', 'waterColorValue', ';\x22\x20data-color=\x22', 'inputs', 'setText', 'loadedSkinImg', '15LcYdfH', '[RGZ\x20Modpack]\x20Original\x20player\x20name\x20stored:', '256CfAkqo', 'Pink', 'menuKey', 'parse', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Nick\x20Spoofer</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Change\x20your\x20nickname\x20and\x20its\x20color</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22nickSpooferToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-content\x22\x20style=\x22', 'spinSpeed', '_text', '#FFA500', '4GAUcBC', 'text', 'backgroundColor', 'Green', 'right', '30559430bxkHxk', 'playerTransparencyKey', '\x22\x20class=\x22rgz-color-picker\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-color-palette\x22\x20id=\x22nickColorPalette\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', 'Mouse\x20lock\x20disabled', '#2196f3', 'top', 'originalUpdateNick', 'xpDisplay', 'a0_0x5aa00a', 'querySelector', '[RGZ\x20Modpack]\x20Restoring\x20original\x20nickname:', 'nickTXT', '#9b59b6', '#2980b9', 'Zoom\x20feature\x20enabled', 'auto', 'drag', 'LandMonster', 'a0_0x4ca616', '#0000FF', 'hideWorldEnabled', 'test', 'getComputedStyle', 'toString', 'rgz-notification', '180162kGIkCV', 'toUpperCase', 'showMainMenuKey', 'Spin\x20speed\x20control\x20enabled', '.rgz-color-picker', 'a0_0x25c402', 'Magenta', 'KeyS', '\x22\x20class=\x22rgz-slider-track\x22\x20id=\x22spinSpeedRange\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-labels\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22>30</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22>360</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Angle\x20Mode</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Animation\x20smoothing\x20type</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20class=\x22rgz-dropdown\x22\x20id=\x22angleModeSelect\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x220\x22>Ease-out</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x221\x22>Linear</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x222\x22>Ease-in</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x223\x22>Instant</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-page\x22\x20id=\x22rgzpage3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Misc\x20Features\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Enable\x20Dragging</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Drag\x20and\x20position\x20the\x20UI</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22dragToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Toggle\x20Menu\x20Key</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Show/Hide\x20the\x20Modpack</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22menuKeyInput\x22\x20maxlength=\x221\x22\x20class=\x22rgz-text-input\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x20', 'round', 'allDragons', 'setColor', '12wJZchP', 'a0_0xc4c8a8', 'angleMode', 'nickSpooferEnabled', 'stringify', '33;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--theme-color-lighter:\x20', '\x22\x20class=\x22rgz-color-picker\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-page\x22\x20id=\x22rgzpage2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Movement\x20Features\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Lock\x20Mouse</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Press\x20ESC\x20to\x20lock/unlock\x20mouse</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22lockMouseToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x20expanded\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Spin\x20Speed</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Change\x20your\x20turn\x20speed</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22spinSpeedToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-content\x22\x20id=\x22spinSpeedContainer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-container\x22\x20style=\x22margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-labels\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22>TurnSpeed</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22\x20id=\x22spinSpeedValue\x22>', 'showMainMenuToggle', 'change', '#FF00FF', 'call', 'keyup', 'updateNick', 'basicDrawSkinImg', '[RGZ\x20Modpack]\x201v1\x20wins\x20display\x20activated', '#3498db', 'showMainMenuEnabled', 'getIdealOpacity', 'uiBackgroundOpacity', 'menu', '.rgz-color-swatch', 'createElement', 'key', 'expanded', '#8e44ad', 'nickColorPicker', 'Hide\x20World\x20feature\x20disabled', 'angleModeSelect', '503437pkBUEA', 'gameObjsByID', 'Mouse\x20unlocked', 'spinSpeedContainer', '\x20XP', 'SELECT', 'rgz-menu', 'blur', 'disabled', '#1abc9c', 'camzoom_n', 'zoomEnabled', 'stopPropagation', 'src', 'superClass', 'UI\x20dragging\x20enabled', 'Next:\x20N/A', 'yellow', 'Orange', 'toFixed', 'offsetWidth', 'Red', 'Error\x20parsing\x20XP\x20value:', 'position', 'appendChild', 'rgz-nav1', 'hideWorldToggle', 'displayWinsToggle', '[RGZ\x20Modpack]\x20Stopping\x20display\x20wins...', 'gCanvas', 'className', 'Lime', '--bg-opacity', 'dispatchEvent', 'spoofedNick', '7724140gmbUmn', 'hideWorld', '\x22\x20class=\x22rgz-slider-track\x22\x20id=\x22opacityRange\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-labels\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22>Transparent</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22>Solid</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-nav\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22rgz-nav-btn\x20active\x22\x20id=\x22rgz-nav1\x22>Visual</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22rgz-nav-btn\x22\x20id=\x22rgz-nav2\x22>Movement</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22rgz-nav-btn\x22\x20id=\x22rgz-nav3\x22>Misc</button>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-page\x22\x20id=\x22rgzpage1\x22\x20style=\x22display:block;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Visual\x20Features\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Zoom</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Zoom\x20with\x20scroll\x20wheel</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22zoomToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x20', 'allDragonsEnabled', 'slice', '#FF7F50', 'join', 'themeColor', 'angle', 'Silver', 'Angle\x20mode\x20set\x20to:\x20', 'checked', 'cyan', '[RGZ\x20Modpack]\x20Error\x20resetting\x20names:', '--theme-color-light', 'style', 'assign', 'flag_can1v1', 'lerpAngle', 'oType', 'showMainMenuInput', 'a0_0x4bbbf3', 'display:\x20block;\x20max-height:\x20none;', 'waterSpamKey', 'input[type=\x22text\x22]', '\x22\x20class=\x22rgz-color-picker\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-color-palette\x22\x20id=\x22waterColorPalette\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', 'dataset', 'playerTransparencyToggle', 'uiThemeColor', 'function', 'dd;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--theme-color-light:\x20', 'name', 'lockMouseToggle', 'maxHeight', '#2ecc71', 'lastFrameTime', 'XP\x20display\x20disabled', '.rgz-feature', 'includes', 'showNextXPEnabled', 'documentElement', 'mousedown', 'opacityValue', 'deltaY', 'backgroundColorPicker', '--theme-color', 'target', 'palettes', 'keydown', '[RGZ\x20Modpack]\x20Nick\x20Spoofer\x20enabled,\x20waiting\x20for\x20user\x20validation...', 'Instant', 'Blue', 'waterSpam', '.rgz-dropdown', 'draggingEnabled', '[RGZ\x20Modpack]\x20Nick\x20updated\x20via\x20Enter\x20key\x20to:', 'Error\x20updating\x20player\x20transparency:', 'contains', 'Water\x20color\x20updated', 'Hide\x20World\x20feature\x20enabled', 'endsWith', 'input', '#27ae60', '#16a085', 'oAngle', '#4E66E4', 'white', 'Next:\x20', 'Escape', '#FFFFFF', '[RGZ\x20Modpack]\x201v1\x20wins\x20display\x20activating...', 'none', 'settingsPanel', 'Background\x20color\x20updated', 'insertAdjacentHTML', 'Water\x20spam\x20disabled', 'nickColor', 'Show\x20main\x20menu\x20enabled', 'replace', 'closest', 'Mouse\x20lock\x20enabled', 'block', 'match', 'Yellow', 'RGZ\x20Player', '.rgz-theme-swatch', 'type', 'firstPosUpd', 'startMenuWrapper', 'loading', 'rgz-settings-btn', 'error', 'display', '6ejOLXC', 'rgzpage1', 'rgz-xp-display', 'abs', 'clientY', 'Player\x20transparency\x20key\x20set\x20to\x20\x27', 'spinSpeedEnabled', 'rgz-settings-panel', 'wins:', 'Menu\x20toggle\x20key\x20set\x20to\x20\x27', 'value', 'map', 'trim', 'waterSpamInterval', 'playerTransparencyEnabled', 'flex', 'getItem', 'clientX', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x20expanded\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Water\x20Spam</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Spam\x20water/lava\x20by\x20pressing\x20a\x20key</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22waterSpamToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-label\x22>Spam\x20Key</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22waterSpamKeyInput\x22\x20maxlength=\x221\x22\x20class=\x22rgz-text-input\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Show\x20XP\x20to\x20next\x20Animal</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Display\x20XP\x20remaining</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22showNextXPToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Display\x20Wins</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Display\x201v1\x20wins\x20of\x20all\x20players</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22rgz-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22displayWinsToggle\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22rgz-slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-title\x22>Show\x20Main\x20Menu</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-feature-desc\x22>Toggle\x20main\x20menu\x20with\x20key</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22showMainMenuInput\x22\x20maxlength=\x221\x22\x20class=\x22rgz-text-input\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a\x20\x20', 'angleDelta', 'nAngle', 'Nickname\x20color\x20updated', '[RGZ\x20Modpack]\x20Hide\x20World\x20feature\x20initialized', 'Coral', 'waterColorPalette', 'Show\x20main\x20menu\x20disabled', 'XP\x20Error', 'fadeIn\x200.3s\x20forwards', 'winsDisplayInterval', 'showNextXPToggle'];
+    _0xcdbd = function() {
+        return _0x2d0cc9;
+    };
+    return _0xcdbd();
+}(function(_0x4d279a, _0x584f00) {
+    var _0x1a3b9c = _0x161a,
+        _0x16d48a = _0x4d279a();
+    while (!![]) {
+        try {
+            var _0x39e166 = parseInt(_0x1a3b9c(0x160)) / 0x1 * (parseInt(_0x1a3b9c(0x11a)) / 0x2) + -parseInt(_0x1a3b9c(0x234)) / 0x3 + parseInt(_0x1a3b9c(0x20a)) / 0x4 * (parseInt(_0x1a3b9c(0x110)) / 0x5) + -parseInt(_0x1a3b9c(0x1e0)) / 0x6 * (-parseInt(_0x1a3b9c(0xf6)) / 0x7) + -parseInt(_0x1a3b9c(0x112)) / 0x8 * (-parseInt(_0x1a3b9c(0x138)) / 0x9) + parseInt(_0x1a3b9c(0x183)) / 0xa + -parseInt(_0x1a3b9c(0x11f)) / 0xb * (parseInt(_0x1a3b9c(0x144)) / 0xc);
+            if (_0x39e166 === _0x584f00) break;
+            else _0x16d48a['push'](_0x16d48a['shift']());
+        } catch (_0x129172) {
+            _0x16d48a['push'](_0x16d48a['shift']());
+        }
+    }
+}(_0xcdbd, 0x7c1db), ((() => {
+    'use strict';
+    var _0x48dd0f = _0x161a;
+    var _0x5400ef = _0x48dd0f(0x240) != typeof unsafeWindow ? unsafeWindow : window,
+        _0x4ac5ff = function(_0x5084e4, _0x6e0ca8) {
+            var _0x4cfde4 = _0x48dd0f;
+            return localStorage[_0x4cfde4(0x254)](_0x4cfde4(0x229)['concat'](_0x5084e4), JSON[_0x4cfde4(0x148)](_0x6e0ca8));
+        },
+        _0x4790b1 = function(_0xf38aa2) {
+            var _0x1d26ee = _0x48dd0f,
+                _0x613995 = arguments['length'] > 0x1 && void 0x0 !== arguments[0x1] && arguments[0x1];
+            try {
+                var _0x1057fc = localStorage[_0x1d26ee(0x1f0)](_0x1d26ee(0x229)[_0x1d26ee(0x210)](_0xf38aa2));
+                return _0x1057fc ? JSON[_0x1d26ee(0x115)](_0x1057fc) : _0x613995;
+            } catch (_0x2aaa1f) {
+                return _0x613995;
+            }
+        },
+        _0x4cc0a4 = function() {
+            var _0x1bc3b5 = _0x48dd0f,
+                _0x5221df = document[_0x1bc3b5(0x22c)]('chatinput') || document[_0x1bc3b5(0x128)](_0x1bc3b5(0x19b));
+            return _0x5221df && document[_0x1bc3b5(0x206)] === _0x5221df;
+        },
+        _0x22c105 = {
+            'waterSpamEnabled': _0x4790b1(_0x48dd0f(0x23c), !0x1),
+            'waterSpamKey': _0x4790b1('waterSpamKey', 'r'),
+            'playerTransparencyKey': _0x4790b1(_0x48dd0f(0x120), 'j'),
+            'showMainMenuKey': _0x4790b1('showMainMenuKey', 'm'),
+            'lockEnabled': _0x4790b1(_0x48dd0f(0x1a3), !0x1),
+            'menuVisible': _0x4790b1(_0x48dd0f(0xfa), !0x0),
+            'menuKey': _0x4790b1('menuKey', 'p'),
+            'draggingEnabled': _0x4790b1('dragToggle', !0x1),
+            'showNextXPEnabled': _0x4790b1(_0x48dd0f(0x1fd), !0x1),
+            'customWaterColor': _0x4790b1(_0x48dd0f(0x10b), '#4E66E4'),
+            'playerTransparencyEnabled': _0x4790b1(_0x48dd0f(0x19e), !0x1),
+            'showMainMenuEnabled': _0x4790b1(_0x48dd0f(0x14b), !0x1),
+            'zoomEnabled': _0x4790b1(_0x48dd0f(0x16b), !0x1),
+            'displayWinsEnabled': _0x4790b1(_0x48dd0f(0x17b), !0x1),
+            'allDragonsEnabled': _0x4790b1(_0x48dd0f(0x186), !0x1),
+            'spinSpeedEnabled': _0x4790b1(_0x48dd0f(0x1e6), !0x1),
+            'spinSpeed': _0x4790b1(_0x48dd0f(0x117), 0x78),
+            'angleMode': _0x4790b1(_0x48dd0f(0x146), 0x1),
+            'uiThemeColor': _0x4790b1(_0x48dd0f(0x19f), _0x48dd0f(0x123)),
+            'uiBackgroundOpacity': _0x4790b1(_0x48dd0f(0x156), 0.85),
+            'hideWorldEnabled': _0x4790b1(_0x48dd0f(0x133), !0x1),
+            'backgroundColor': _0x4790b1(_0x48dd0f(0x11c), '#3FBA54'),
+            'nickSpooferEnabled': _0x4790b1(_0x48dd0f(0x147), !0x1),
+            'spoofedNick': _0x4790b1('spoofedNick', _0x48dd0f(0x1d7)),
+            'spoofedNickColor': _0x4790b1(_0x48dd0f(0x24c), _0x48dd0f(0x1c5))
+        },
+        _0x3ecc4c = {
+            'waterSpamInterval': null,
+            'waterSpamActive': !0x1,
+            'mouseLocked': !0x1,
+            'UI': {},
+            'currentNotificationTimeout': null,
+            'deltaTime': 0x0,
+            'lastFrameTime': 0x0,
+            'originalUpdateNick': null,
+            'winsDisplayInterval': null
+        },
+        _0x553b36 = new Image();
+    _0x553b36[_0x48dd0f(0x16d)] = _0x48dd0f(0x252);
+    const _0x13f573 = function() {
+        var _0x2f7b50 = _0x48dd0f;
+        document['head'][_0x2f7b50(0x178)](Object[_0x2f7b50(0x193)](document[_0x2f7b50(0x159)](_0x2f7b50(0x192)), {
+            'innerText': _0x2f7b50(0x227)['concat'](_0x22c105[_0x2f7b50(0x19f)], ';\x0a\x20\x20\x20\x20\x20\x20\x20\x20--theme-color-dark:\x20')['concat'](_0x22c105[_0x2f7b50(0x19f)], _0x2f7b50(0x1a1))[_0x2f7b50(0x210)](_0x22c105[_0x2f7b50(0x19f)], _0x2f7b50(0x149))[_0x2f7b50(0x210)](_0x22c105[_0x2f7b50(0x19f)], '11;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--bg-opacity:\x20')['concat'](_0x22c105[_0x2f7b50(0x156)], ';\x0a\x20\x20\x20\x20\x20\x20\x20\x20--background-blur:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--border-radius:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20--box-shadow:\x200\x204px\x2020px\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20--soft-transition:\x20all\x200.3s\x20cubic-bezier(0.25,\x200.8,\x200.25,\x201);\x0a\x20\x20\x20\x20\x20\x20\x20\x20--button-transition:\x20all\x200.2s\x20cubic-bezier(0.25,\x200.8,\x200.25,\x201);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Main\x20Menu\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-container\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20right:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x2099999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Oxanium\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20320px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20var(--soft-transition);\x0a\x20\x20\x20\x20\x20\x20\x20\x20will-change:\x20transform,\x20opacity;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-panel\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(20,\x2022,\x2033,\x20var(--bg-opacity));\x0a\x20\x20\x20\x20\x20\x20\x20\x20backdrop-filter:\x20blur(var(--background-blur));\x0a\x20\x20\x20\x20\x20\x20\x20\x20-webkit-backdrop-filter:\x20blur(var(--background-blur));\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x20var(--border-radius);\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x20var(--box-shadow);\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,\x20255,\x20255,\x200.1);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-panel::before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x203px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20linear-gradient(90deg,\x20var(--theme-color)\x200%,\x20var(--theme-color-dark)\x20100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Header\x20&\x20Title\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-header\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-title\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20baseline;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-title-main\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2028px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20800;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-right:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-shadow:\x200\x200\x2010px\x20rgba(33,\x20150,\x20243,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20letter-spacing:\x200.5px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-title-sub\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.9;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-actions\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20gap:\x208px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-action-btn\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(255,\x20255,\x20255,\x200.6);\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2026px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2026px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20var(--button-transition);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-action-btn:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(255,\x20255,\x20255,\x200.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Navigation\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-nav\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x204px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-nav-btn\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20flex:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x208px\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20500;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20var(--button-transition);\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Oxanium\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-nav-btn:hover:not(.active)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(255,\x20255,\x20255,\x200.08);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-nav-btn.active\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x202px\x205px\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Pages\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-page\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20500px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow-y:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow-x:\x20hidden;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding-right:\x205px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-page::-webkit-scrollbar\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x204px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-page::-webkit-scrollbar-track\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-page::-webkit-scrollbar-thumb\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Feature\x20Cards\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-feature\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(255,\x20255,\x20255,\x200.04);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012px\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20var(--soft-transition);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,\x20255,\x20255,\x200.05);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-feature:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(255,\x20255,\x20255,\x200.06);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20rgba(255,\x20255,\x20255,\x200.08);\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x202px\x205px\x20rgba(0,\x200,\x200,\x200.1);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-feature-header\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-feature-info\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-feature-title\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x203px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-feature-desc\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(255,\x20255,\x20255,\x200.6);\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x20200px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-feature-content\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20max-height\x200.3s\x20ease-out;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-feature.expanded\x20.rgz-feature-content\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2012px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Dropdown\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-dropdown\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,\x20255,\x20255,\x200.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2013px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Oxanium\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20var(--soft-transition);\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20appearance:\x20menulist;\x0a\x20\x20\x20\x20\x20\x20\x20\x20-webkit-appearance:\x20menulist;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-dropdown\x20option\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(20,\x2022,\x2033,\x200.95);\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Oxanium\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-dropdown:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(255,\x20255,\x20255,\x200.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-dropdown:focus\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20outline:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x202px\x20var(--theme-color-lighter);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Toggle\x20Switches\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-switch\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline-block;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2040px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2021px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-switch\x20input\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x200;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(255,\x20255,\x20255,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider:before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2017px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2017px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x202px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x202px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x201px\x203px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20input:checked\x20+\x20.rgz-slider\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20input:focus\x20+\x20.rgz-slider\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x202px\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20input:checked\x20+\x20.rgz-slider:before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(19px);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Color\x20Picker\x20and\x20Text\x20Inputs\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-color-picker\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20-webkit-appearance:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2040px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2025px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-color-picker::-webkit-color-swatch\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x201px\x203px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-text-input\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,\x20255,\x20255,\x200.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2013px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2040px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Oxanium\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20var(--soft-transition);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-text-input:focus\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20outline:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x202px\x20var(--theme-color-lighter);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Sliders\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-slider-container\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x205px\x205px\x2015px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider-value\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x2028px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x202px\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x2030px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x201px\x203px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(-50%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider-track\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20-webkit-appearance:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,\x20255,\x20255,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20outline:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider-track::-webkit-slider-thumb\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20-webkit-appearance:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20appearance:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x201px\x203px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider-track::-moz-range-thumb\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x201px\x203px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider-labels\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x203px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-slider-label\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(255,\x20255,\x20255,\x200.5);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Settings\x20Section\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-settings-section\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-top:\x201px\x20solid\x20rgba(255,\x20255,\x20255,\x200.05);\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2015px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding-top:\x2015px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-settings-title\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(255,\x20255,\x20255,\x200.8);\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-settings-row\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20gap:\x2010px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-settings-label\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2013px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(255,\x20255,\x20255,\x200.7);\x0a\x20\x20\x20\x20\x20\x20\x20\x20flex:\x201;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Theme\x20Customization\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-theme-swatches\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20gap:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20flex-wrap:\x20wrap;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-theme-swatch\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20rgba(255,\x20255,\x20255,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20transform\x200.2s,\x20border-color\x200.2s;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-theme-swatch:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.1);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-theme-swatch.active\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.1);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Next\x20XP\x20Display\x20*/\x0a\x20\x20\x20\x20\x20\x20#rgz-xp-display\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x20266px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20right:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2013px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Oxanium\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-shadow:\x200\x201px\x203px\x20rgba(0,\x200,\x200,\x200.7);\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(0,\x200,\x200,\x200.5);\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x204px\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20backdrop-filter:\x20blur(var(--background-blur));\x0a\x20\x20\x20\x20\x20\x20\x20\x20-webkit-backdrop-filter:\x20blur(var(--background-blur));\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Notification\x20System\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-notification\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x2060px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(-50%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(0,\x200,\x200,\x200.8);\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Oxanium\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20500;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x20999999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x2015px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-shadow:\x200\x201px\x202px\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x2080%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20opacity\x200.3s,\x20transform\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-left:\x204px\x20solid\x20var(--theme-color);\x0a\x20\x20\x20\x20\x20\x20\x20\x20backdrop-filter:\x20blur(var(--background-blur));\x0a\x20\x20\x20\x20\x20\x20\x20\x20-webkit-backdrop-filter:\x20blur(var(--background-blur));\x0a\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-notification.enabled\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-left:\x204px\x20solid\x20#00b09b;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-notification.disabled\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-left:\x204px\x20solid\x20#ff416c;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Settings\x20panel\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-settings-panel\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2015px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,\x20255,\x20255,\x200.05);\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Color\x20palette\x20*/\x0a\x20\x20\x20\x20\x20\x20.rgz-color-palette\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20flex-wrap:\x20wrap;\x0a\x20\x20\x20\x20\x20\x20\x20\x20gap:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x208px;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-color-swatch\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2022px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2022px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20rgba(255,\x20255,\x20255,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20transform\x200.2s,\x20border-color\x200.2s;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20.rgz-color-swatch:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20@keyframes\x20fadeIn\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20from\x20{\x20opacity:\x200;\x20transform:\x20translate(-50%,\x20-20px);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20to\x20{\x20opacity:\x201;\x20transform:\x20translate(-50%,\x200);\x20}\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20@keyframes\x20fadeOut\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20from\x20{\x20opacity:\x201;\x20transform:\x20translate(-50%,\x200);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20to\x20{\x20opacity:\x200;\x20transform:\x20translate(-50%,\x20-20px);\x20}\x0a\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20/*\x20Media\x20Queries\x20*/\x0a\x20\x20\x20\x20\x20\x20@media\x20(max-height:\x20700px)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20.rgz-page\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20350px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20')
+        }));
+    };
+    var _0x1b09ab = null,
+        _0xaacb35 = null,
+        _0xdc47e5 = null,
+        _0x424c11 = null,
+        _0x4537fc = [{
+            'name': _0x48dd0f(0x104),
+            'value': _0x48dd0f(0x1c5)
+        }, {
+            'name': _0x48dd0f(0x175),
+            'value': 'red'
+        }, {
+            'name': _0x48dd0f(0x172),
+            'value': _0x48dd0f(0x119)
+        }, {
+            'name': _0x48dd0f(0x1d6),
+            'value': _0x48dd0f(0x171)
+        }, {
+            'name': _0x48dd0f(0x11d),
+            'value': _0x48dd0f(0xe8)
+        }, {
+            'name': 'Teal',
+            'value': _0x48dd0f(0x217)
+        }, {
+            'name': _0x48dd0f(0x102),
+            'value': _0x48dd0f(0x18f)
+        }, {
+            'name': _0x48dd0f(0x1b6),
+            'value': _0x48dd0f(0x132)
+        }, {
+            'name': _0x48dd0f(0x22b),
+            'value': '#800080'
+        }, {
+            'name': _0x48dd0f(0x113),
+            'value': _0x48dd0f(0x241)
+        }, {
+            'name': _0x48dd0f(0x13e),
+            'value': _0x48dd0f(0x14d)
+        }, {
+            'name': _0x48dd0f(0x17f),
+            'value': '#32CD32'
+        }, {
+            'name': _0x48dd0f(0x1f7),
+            'value': _0x48dd0f(0x188)
+        }, {
+            'name': 'Gold',
+            'value': _0x48dd0f(0x208)
+        }, {
+            'name': _0x48dd0f(0x18c),
+            'value': '#C0C0C0'
+        }, {
+            'name': _0x48dd0f(0x213),
+            'value': _0x48dd0f(0x213)
+        }],
+        _0x31f539 = !0x1,
+        _0x4ff86f = function() {
+            var _0x1ab4ac = _0x48dd0f;
+            if (_0x5400ef[_0x1ab4ac(0xf1)] && _0x5400ef[_0x1ab4ac(0x127)]) {
+                !_0x424c11 && _0x5400ef['a0_0x525322'] && (_0x424c11 = _0x5400ef['a0_0x525322'], console[_0x1ab4ac(0x25c)](_0x1ab4ac(0x111), _0x424c11));
+                var _0x234261 = _0x5400ef[_0x1ab4ac(0x127)];
+                for (var _0x221088 in _0x234261) {
+                    var _0x40192f = _0x234261[_0x221088];
+                    if (_0x40192f && _0x40192f[_0x1ab4ac(0x209)] === _0x5400ef[_0x1ab4ac(0xf1)]) return _0x40192f;
+                }
+            } else console['log']('Game\x20variables\x20not\x20yet\x20defined.');
+        };
+
+    function _0x2eded5() {
+        var _0x45e8e4 = _0x48dd0f;
+        _0x31f539 = !0x1, !_0x1b09ab && _0x5400ef[_0x45e8e4(0x23b)] && _0x5400ef['Animal'][_0x45e8e4(0xe6)]['drawNickName'] && (_0x1b09ab = _0x5400ef[_0x45e8e4(0x23b)]['prototype'][_0x45e8e4(0x266)]), !_0xaacb35 && CanvasRenderingContext2D[_0x45e8e4(0xe6)][_0x45e8e4(0x103)] && (_0xaacb35 = CanvasRenderingContext2D['prototype'][_0x45e8e4(0x103)]), _0x22c105[_0x45e8e4(0x147)] || (_0x22c105['nickSpooferEnabled'] = !0x1, _0x4ac5ff('nickSpooferEnabled', !0x1)), _0x22c105['spoofedNick'] || (_0x22c105[_0x45e8e4(0x182)] = _0x45e8e4(0x1d7), _0x4ac5ff(_0x45e8e4(0x182), _0x22c105[_0x45e8e4(0x182)])), _0x22c105[_0x45e8e4(0x24c)] || (_0x22c105[_0x45e8e4(0x24c)] = _0x45e8e4(0x1c5), _0x4ac5ff(_0x45e8e4(0x24c), _0x22c105[_0x45e8e4(0x24c)])), _0x5400ef[_0x45e8e4(0xf1)] && (_0xdc47e5 = _0x5400ef[_0x45e8e4(0xf1)], _0x424c11 || (_0x424c11 = _0x5400ef[_0x45e8e4(0xf1)])), document[_0x45e8e4(0x239)](_0x45e8e4(0x1b3), function(_0x478adb) {
+            var _0x239502 = _0x45e8e4;
+            if ((_0x485506 = document['activeElement']) && _0x239502(0x261) === _0x485506['tagName'] && (_0x239502(0x11b) === _0x485506[_0x239502(0x1d9)] || 'color' === _0x485506[_0x239502(0x1d9)])) {
+                if ('Enter' === _0x478adb['key'] && _0x239502(0x21d) === _0x478adb[_0x239502(0x1b1)]['id']) {
+                    var _0x241c52 = _0x478adb[_0x239502(0x1b1)]['value'][_0x239502(0x1ec)]();
+                    return _0x241c52 && (_0x23ad42(_0x241c52, null), _0x31f539 = !0x0, _0x29a391(!0x1), setTimeout(function() {
+                        return _0x29a391(!0x0);
+                    }, 0x32), console[_0x239502(0x25c)](_0x239502(0x1ba), _0x241c52)), _0x478adb[_0x239502(0x1b1)]['blur'](), _0x478adb['preventDefault'](), void _0x478adb[_0x239502(0x16c)]();
+                }
+                _0x478adb[_0x239502(0x16c)]();
+            }
+            var _0x485506;
+        }, !0x0), _0x22c105['nickSpooferEnabled'] ? (_0x29a391(!0x1), console[_0x45e8e4(0x25c)]('[RGZ\x20Modpack]\x20Nick\x20Spoofer\x20enabled\x20but\x20waiting\x20for\x20user\x20to\x20validate\x20nickname')) : _0x29a391(!0x1), setInterval(function() {
+            var _0x3bb7e8 = _0x45e8e4;
+            if (_0x22c105[_0x3bb7e8(0x147)] && _0x31f539) {
+                _0x5400ef['a0_0x525322'] && _0x5400ef[_0x3bb7e8(0xf1)] !== _0xdc47e5 && _0x5400ef[_0x3bb7e8(0xf1)] !== _0x22c105[_0x3bb7e8(0x182)] && (_0xdc47e5 = _0x5400ef['a0_0x525322']);
+                var _0x3d65ae = _0x4ff86f();
+                _0x3d65ae && _0x3d65ae[_0x3bb7e8(0x12a)] && _0x3d65ae[_0x3bb7e8(0x12a)][_0x3bb7e8(0x10e)](_0x22c105[_0x3bb7e8(0x182)]);
+            }
+        }, 0x1f4), console[_0x45e8e4(0x25c)]('[RGZ\x20Modpack]\x20Nick\x20Spoofer\x20feature\x20initialized');
+    }
+
+    function _0x29a391(_0x2476ab) {
+        var _0x1150cc = _0x48dd0f;
+        if (!_0x1b09ab || !_0xaacb35) return console[_0x1150cc(0x25c)]('[RGZ\x20Modpack]\x20Original\x20functions\x20not\x20saved\x20yet,\x20retrying...'), void setTimeout(function() {
+            return _0x2eded5();
+        }, 0x3e8);
+        if (_0x5400ef['a0_0x525322'] && (_0x424c11 || (_0x424c11 = _0x5400ef[_0x1150cc(0xf1)]), _0xdc47e5 = _0x5400ef['a0_0x525322']), _0x2476ab && _0x31f539) {
+            _0x5400ef[_0x1150cc(0x23b)]['prototype']['drawNickName'] = function() {
+                var _0x4113f0 = _0x1150cc;
+                if (this === _0x4ff86f()) {
+                    var _0x37b47a = this['nickTXT']['setColor'];
+                    this[_0x4113f0(0x12a)][_0x4113f0(0x11b)], (this[_0x4113f0(0x12a)][_0x4113f0(0x143)] = function() {
+                        var _0x2021f5 = _0x4113f0;
+                        _0x37b47a[_0x2021f5(0x14e)](this, _0x22c105['spoofedNickColor']);
+                    }, this[_0x4113f0(0x12a)][_0x4113f0(0x11b)] = _0x22c105[_0x4113f0(0x182)], _0x1b09ab['call'](this), this[_0x4113f0(0x12a)][_0x4113f0(0x143)] = _0x37b47a);
+                } else _0x1b09ab['call'](this);
+            }, CanvasRenderingContext2D['prototype'][_0x1150cc(0x103)] = function(_0x5592b0, _0x4d7847, _0x23c050) {
+                var _0x73fe9f = _0x1150cc,
+                    _0x8ca055 = this['fillStyle'];
+                if ('string' == typeof _0x5592b0 && _0xdc47e5 && _0x5592b0[_0x73fe9f(0x1a9)](_0xdc47e5)) {
+                    var _0x1e3f47 = _0x5592b0[_0x73fe9f(0x1d1)](_0xdc47e5, _0x22c105[_0x73fe9f(0x182)]);
+                    return _0x5592b0[_0x73fe9f(0x1a9)](_0x73fe9f(0x1e8)) ? (this['fillStyle'] = _0x73fe9f(0x1c5), _0xaacb35[_0x73fe9f(0x14e)](this, _0x1e3f47, _0x4d7847, _0x23c050)) : _0xaacb35['call'](this, _0x1e3f47, _0x4d7847, _0x23c050), void(this['fillStyle'] = _0x8ca055);
+                }
+                _0xaacb35[_0x73fe9f(0x14e)](this, _0x5592b0, _0x4d7847, _0x23c050);
+            };
+            var _0x32d95b = _0x4ff86f();
+            _0x32d95b && _0x32d95b['nickTXT'] && (console['log']('[RGZ\x20Modpack]\x20Applying\x20nickname:', _0x22c105[_0x1150cc(0x182)]), _0x32d95b[_0x1150cc(0x12a)][_0x1150cc(0x10e)](_0x22c105[_0x1150cc(0x182)]));
+        } else {
+            if (_0x5400ef[_0x1150cc(0x23b)][_0x1150cc(0xe6)][_0x1150cc(0x266)] = _0x1b09ab, CanvasRenderingContext2D['prototype']['fillText'] = _0xaacb35, !_0x2476ab && _0x424c11) {
+                var _0x67a435 = _0x4ff86f();
+                _0x67a435 && _0x67a435['nickTXT'] && (console[_0x1150cc(0x25c)](_0x1150cc(0x129), _0x424c11), _0x67a435[_0x1150cc(0x12a)][_0x1150cc(0x10e)](_0x424c11));
+            }
+        }
+    }
+
+    function _0x23ad42(_0x49c8f4, _0x45acb8) {
+        var _0x1e9bcf = _0x48dd0f;
+        console['log'](_0x1e9bcf(0x260), _0x49c8f4, _0x45acb8), _0x49c8f4 && (_0x22c105[_0x1e9bcf(0x182)] = _0x49c8f4, _0x4ac5ff(_0x1e9bcf(0x182), _0x49c8f4)), _0x45acb8 && (_0x22c105[_0x1e9bcf(0x24c)] = _0x45acb8, _0x4ac5ff(_0x1e9bcf(0x24c), _0x45acb8)), _0x22c105[_0x1e9bcf(0x147)] && (_0x31f539 = !0x0, _0x29a391(!0x1), setTimeout(function() {
+            var _0x363747 = _0x1e9bcf;
+            _0x29a391(!0x0);
+            var _0x4ace1d = _0x4ff86f();
+            _0x4ace1d && _0x4ace1d[_0x363747(0x12a)] && _0x4ace1d[_0x363747(0x12a)][_0x363747(0x10e)](_0x22c105['spoofedNick']);
+        }, 0x32));
+    }
+    var _0x109c2 = [_0x48dd0f(0x1c4), _0x48dd0f(0x153), _0x48dd0f(0x12c), _0x48dd0f(0x169), _0x48dd0f(0x1c2), _0x48dd0f(0x1c1), _0x48dd0f(0x1a5), _0x48dd0f(0x15c), _0x48dd0f(0x12b), _0x48dd0f(0xf8), _0x48dd0f(0x230)],
+        _0x3400f8 = function() {
+            var _0x5d7b78 = _0x48dd0f,
+                _0x5eb611 = [document[_0x5d7b78(0x22c)](_0x5d7b78(0x179)), document[_0x5d7b78(0x22c)]('rgz-nav2'), document[_0x5d7b78(0x22c)](_0x5d7b78(0x248))],
+                _0x52074c = [document[_0x5d7b78(0x22c)](_0x5d7b78(0x1e1)), document[_0x5d7b78(0x22c)](_0x5d7b78(0x101)), document[_0x5d7b78(0x22c)]('rgzpage3')];
+            _0x5eb611[_0x5d7b78(0x100)](function(_0x103e84) {
+                return !_0x103e84;
+            }) || _0x52074c['some'](function(_0x511e7e) {
+                return !_0x511e7e;
+            }) ? setTimeout(_0x3400f8, 0x1f4) : _0x5eb611[_0x5d7b78(0x24e)](function(_0x5dbea7, _0x19b5db) {
+                _0x5dbea7['onclick'] = function() {
+                    var _0x3fe7a0 = _0x161a;
+                    document[_0x3fe7a0(0x22c)]('rgz-settings-panel')[_0x3fe7a0(0x192)][_0x3fe7a0(0x1df)] = _0x3fe7a0(0x1ca), _0x52074c[_0x3fe7a0(0x24e)](function(_0x5d67a, _0x228368) {
+                        var _0x2fb107 = _0x3fe7a0;
+                        _0x5d67a && (_0x5d67a['style'][_0x2fb107(0x1df)] = _0x19b5db === _0x228368 ? _0x2fb107(0x1d4) : _0x2fb107(0x1ca));
+                    }), _0x5eb611[_0x3fe7a0(0x24e)](function(_0x1e5b8b, _0x356084) {
+                        var _0x33646f = _0x3fe7a0;
+                        _0x1e5b8b[_0x33646f(0x17e)] = _0x19b5db === _0x356084 ? _0x33646f(0x21f) : 'rgz-nav-btn';
+                    });
+                };
+            });
+        };
+    const _0x2c8381 = function(_0x343851, _0x760884) {
+        var _0x3a7108 = _0x48dd0f,
+            _0x25f271 = arguments[_0x3a7108(0x23a)] > 0x2 && void 0x0 !== arguments[0x2] ? arguments[0x2] : 0x7d0;
+        _0x3ecc4c['UI'][_0x3a7108(0x25d)] && (_0x3ecc4c[_0x3a7108(0x25b)] && (clearTimeout(_0x3ecc4c[_0x3a7108(0x25b)]), _0x3ecc4c[_0x3a7108(0x25b)] = null), _0x3ecc4c['UI']['notification'][_0x3a7108(0x17e)] = _0x3a7108(0x137), _0x760884 && _0x3ecc4c['UI'][_0x3a7108(0x25d)][_0x3a7108(0x23d)][_0x3a7108(0x221)](_0x760884), _0x3ecc4c['UI'][_0x3a7108(0x25d)][_0x3a7108(0xeb)] = _0x343851, _0x3ecc4c['UI']['notification'][_0x3a7108(0x192)][_0x3a7108(0x1df)] = _0x3a7108(0x1d4), _0x3ecc4c['UI'][_0x3a7108(0x25d)][_0x3a7108(0x192)][_0x3a7108(0xfd)] = '', _0x3ecc4c['UI']['notification'][_0x3a7108(0x174)], _0x3ecc4c['UI'][_0x3a7108(0x25d)]['style']['animation'] = _0x3a7108(0x1fb), _0x3ecc4c['UI'][_0x3a7108(0x25d)]['style']['opacity'] = '1', _0x3ecc4c[_0x3a7108(0x25b)] = setTimeout(function() {
+            var _0x1535e0 = _0x3a7108;
+            _0x3ecc4c['UI'][_0x1535e0(0x25d)]['style'][_0x1535e0(0xfd)] = _0x1535e0(0x224), _0x3ecc4c[_0x1535e0(0x25b)] = setTimeout(function() {
+                var _0x4550e6 = _0x1535e0;
+                _0x3ecc4c['UI'][_0x4550e6(0x25d)][_0x4550e6(0x192)][_0x4550e6(0x1df)] = _0x4550e6(0x1ca), _0x3ecc4c['UI']['notification'][_0x4550e6(0x192)][_0x4550e6(0x223)] = '0', _0x3ecc4c[_0x4550e6(0x25b)] = null;
+            }, 0x12c);
+        }, _0x25f271));
+    };
+
+    function _0x266845(_0x364629) {
+        var _0xb8bd6e = _0x48dd0f;
+        if (_0x3ecc4c['UI'][_0xb8bd6e(0x157)] && !(_0x364629[_0xb8bd6e(0x1b1)][_0xb8bd6e(0x1d2)](_0xb8bd6e(0xe5)) || _0x364629['target']['classList'][_0xb8bd6e(0x1bc)](_0xb8bd6e(0x21b)) || _0x364629[_0xb8bd6e(0x1b1)][_0xb8bd6e(0x23d)][_0xb8bd6e(0x1bc)]('rgz-action-btn') || [_0xb8bd6e(0x261), _0xb8bd6e(0x238), _0xb8bd6e(0x165)][_0xb8bd6e(0x1a9)](_0x364629[_0xb8bd6e(0x1b1)]['tagName']))) {
+            var _0x30717e = _0x3ecc4c['UI']['menu'],
+                _0x362cfa = _0x364629['clientX'],
+                _0x5015a9 = _0x364629[_0xb8bd6e(0x1e4)],
+                _0x4869db = _0x30717e[_0xb8bd6e(0x22e)](),
+                _0x50414f = _0x4869db[_0xb8bd6e(0x245)],
+                _0x292815 = _0x4869db['top'];
+            _0xb8bd6e(0x25f) !== window[_0xb8bd6e(0x135)](_0x30717e)[_0xb8bd6e(0x177)] && (_0x30717e[_0xb8bd6e(0x192)]['position'] = _0xb8bd6e(0x25f));
+            var _0x348b6d = _0x362cfa,
+                _0x265c7c = _0x5015a9,
+                _0xa72936 = !0x0,
+                _0x5702f0 = null;
+            document[_0xb8bd6e(0x239)](_0xb8bd6e(0xf4), _0x25423f, {
+                'capture': !0x0
+            }), document['addEventListener']('mouseup', function _0x3d381f() {
+                var _0x54bb94 = _0xb8bd6e;
+                _0xa72936 = !0x1, null !== _0x5702f0 && (cancelAnimationFrame(_0x5702f0), _0x5702f0 = null), document['removeEventListener'](_0x54bb94(0xf4), _0x25423f, {
+                    'capture': !0x0
+                }), document[_0x54bb94(0x220)](_0x54bb94(0x258), _0x3d381f);
+                var _0x2c7784 = _0x30717e[_0x54bb94(0x22e)]();
+                _0x50414f = _0x2c7784[_0x54bb94(0x245)], _0x292815 = _0x2c7784[_0x54bb94(0x124)];
+            }), _0x5702f0 = requestAnimationFrame(_0x401602), _0x364629['preventDefault']();
+        }
+
+        function _0x401602() {
+            var _0x479314 = _0xb8bd6e;
+            _0xa72936 && (_0x30717e['style'][_0x479314(0x245)] = '' ['concat'](_0x50414f + (_0x348b6d - _0x362cfa), 'px'), _0x30717e[_0x479314(0x192)]['top'] = '' [_0x479314(0x210)](_0x292815 + (_0x265c7c - _0x5015a9), 'px'), _0x30717e[_0x479314(0x192)][_0x479314(0x11e)] = _0x479314(0x12e), _0x5702f0 = requestAnimationFrame(_0x401602));
+        }
+
+        function _0x25423f(_0x284378) {
+            var _0x326cf4 = _0xb8bd6e;
+            _0xa72936 && (_0x348b6d = _0x284378[_0x326cf4(0x1f1)], _0x265c7c = _0x284378[_0x326cf4(0x1e4)], null === _0x5702f0 && (_0x5702f0 = requestAnimationFrame(_0x401602)));
+        }
+    }
+
+    function _0x10e058() {
+        var _0x4128ff = _0x48dd0f,
+            _0x4f05e5 = _0x22c105['customWaterColor'];
+        _0x4128ff(0x230) === _0x4f05e5 && (a0_0x1f7f84 = _0x4128ff(0x1c4), a0_0x25c402 = _0x4128ff(0x218)), void 0x0 !== _0x5400ef[_0x4128ff(0x24b)] & _0x4128ff(0x230) !== _0x4f05e5 && (_0x5400ef[_0x4128ff(0x24b)] = _0x4f05e5), void 0x0 !== _0x5400ef['a0_0x25c402'] & _0x4128ff(0x230) !== _0x4f05e5 && (_0x5400ef[_0x4128ff(0x13d)] = _0x4f05e5);
+    }
+    var _0x28bbf0 = function() {
+        var _0x5c6b14 = _0x48dd0f;
+        _0x3ecc4c['waterSpamInterval'] && (clearInterval(_0x3ecc4c[_0x5c6b14(0x1ed)]), _0x3ecc4c[_0x5c6b14(0x1ed)] = null);
+    };
+
+    function _0x18172c(_0x326734) {
+        var _0x5dbd22 = _0x48dd0f;
+        _0x4cc0a4() || (_0x326734[_0x5dbd22(0x1ae)] < 0x0 ? _0x5400ef[_0x5dbd22(0x16a)] += 0.1 : _0x5400ef[_0x5dbd22(0x16a)] >= 0.2 && (_0x5400ef[_0x5dbd22(0x16a)] -= 0.1));
+    }
+
+    function _0x380352() {
+        var _0x9eb341 = _0x48dd0f;
+        if (_0x5400ef['Animal'] && _0x5400ef[_0x9eb341(0x23b)][_0x9eb341(0xe6)]) {
+            var _0x40c16f = _0x5400ef[_0x9eb341(0x23b)]['prototype'][_0x9eb341(0x151)];
+            _0x5400ef['Animal'][_0x9eb341(0xe6)]['basicDrawSkinImg'] = function() {
+                var _0x37d1e1 = _0x9eb341;
+                if (_0x22c105[_0x37d1e1(0x186)]) {
+                    var _0x3aee92 = this[_0x37d1e1(0x10f)];
+                    this[_0x37d1e1(0x10f)] = _0x553b36, _0x40c16f[_0x37d1e1(0x14e)](this), this['loadedSkinImg'] = _0x3aee92;
+                } else _0x40c16f[_0x37d1e1(0x14e)](this);
+            };
+            var _0x322121 = _0x5400ef[_0x9eb341(0x23b)]['prototype'][_0x9eb341(0x212)];
+            if (_0x5400ef[_0x9eb341(0x23b)][_0x9eb341(0xe6)]['drawSkinImg'] = function() {
+                    var _0x12fcf7 = _0x9eb341;
+                    _0x22c105['allDragonsEnabled'] ? this[_0x12fcf7(0x151)]() : _0x322121[_0x12fcf7(0x14e)](this);
+                }, _0x5400ef['LandMonster'] && _0x5400ef[_0x9eb341(0x130)][_0x9eb341(0xe6)] && _0x5400ef[_0x9eb341(0x130)][_0x9eb341(0xe6)][_0x9eb341(0x151)]) {
+                var _0x5decf5 = _0x5400ef[_0x9eb341(0x130)][_0x9eb341(0xe6)][_0x9eb341(0x151)];
+                _0x5400ef['LandMonster']['prototype'][_0x9eb341(0x151)] = function() {
+                    var _0x49f5f5 = _0x9eb341;
+                    _0x22c105[_0x49f5f5(0x186)] ? _0x5400ef['LandMonster'][_0x49f5f5(0x16e)][_0x49f5f5(0xe6)][_0x49f5f5(0x151)][_0x49f5f5(0x14e)](this) : _0x5decf5[_0x49f5f5(0x14e)](this);
+                };
+            }
+        } else setTimeout(_0x380352, 0x3e8);
+    }
+
+    function _0x2489d6() {
+        if (!_0x3ecc4c['originalUpdateNick']) var _0xf1f26 = setInterval(function() {
+            var _0x3aa0c0 = _0x161a;
+            _0x5400ef[_0x3aa0c0(0x23b)] && _0x5400ef['Animal']['prototype'][_0x3aa0c0(0x150)] && (clearInterval(_0xf1f26), console['log'](_0x3aa0c0(0x1c9)), _0x5400ef[_0x3aa0c0(0x198)] = !0x0, _0x3ecc4c[_0x3aa0c0(0x125)] = _0x5400ef[_0x3aa0c0(0x23b)][_0x3aa0c0(0xe6)]['updateNick'], _0x5400ef[_0x3aa0c0(0x23b)][_0x3aa0c0(0xe6)][_0x3aa0c0(0x150)] = function() {
+                var _0x629764 = _0x3aa0c0;
+                if (this[_0x629764(0x194)] = !0x0, _0x3ecc4c[_0x629764(0x125)]['apply'](this, arguments), this['nickTXT'] && !this[_0x629764(0x211)]) {
+                    var _0x3caf5a = _0x629764(0x21c) + this['wins1v1'] + ')';
+                    this[_0x629764(0x209)] && (this[_0x629764(0x12a)][_0x629764(0x10e)](this[_0x629764(0x209)] + _0x3caf5a), this[_0x629764(0x211)] = !0x0);
+                }
+            }, _0x3ecc4c[_0x3aa0c0(0x1fc)] = setInterval(function() {
+                var _0x3c63c4 = _0x3aa0c0;
+                try {
+                    for (var _0x4f3dba in _0x5400ef['a0_0x4ca616']) {
+                        var _0xcdf1b0 = _0x5400ef['a0_0x4ca616'][_0x4f3dba];
+                        _0xcdf1b0 && _0xcdf1b0[_0x3c63c4(0x150)] && _0xcdf1b0[_0x3c63c4(0x150)]();
+                    }
+                } catch (_0x3c6bab) {
+                    console[_0x3c63c4(0x1de)](_0x3c63c4(0xed), _0x3c6bab);
+                }
+            }, 0x3e8), console[_0x3aa0c0(0x25c)](_0x3aa0c0(0x152)));
+        }, 0x3e8);
+    }
+
+    function _0x3f586e(_0x5c839a, _0x424249) {
+        var _0x50a5da = _0x48dd0f;
+        if (_0x5c839a && _0x424249) {
+            var _0x3c3d59 = parseFloat(_0x5c839a[_0x50a5da(0x1ea)]),
+                _0x3a6620 = parseFloat(_0x5c839a[_0x50a5da(0x204)]) || 0x0,
+                _0x39a278 = (_0x3c3d59 - _0x3a6620) / ((parseFloat(_0x5c839a[_0x50a5da(0x22a)]) || 0x64) - _0x3a6620) * 0x64,
+                _0x294004 = Math[_0x50a5da(0x22a)](0xa, Math[_0x50a5da(0x204)](0x5a, _0x39a278));
+            _0x424249[_0x50a5da(0x192)]['left'] = '' [_0x50a5da(0x210)](_0x294004, '%');
+        }
+    }
+    var _0x5e7c6d = null;
+
+    function _0x5e0397() {
+        var _0x2133a8 = _0x48dd0f;
+        if (void 0x0 !== _0x5400ef[_0x2133a8(0x23b)] && _0x5400ef['Animal'][_0x2133a8(0xe6)]) try {
+            _0x22c105[_0x2133a8(0x1ee)] ? (_0x5e7c6d || (_0x5e7c6d = _0x5400ef[_0x2133a8(0x23b)]['prototype'][_0x2133a8(0x155)]), _0x5400ef[_0x2133a8(0x23b)][_0x2133a8(0xe6)][_0x2133a8(0x155)] = function() {
+                var _0x27b968 = _0x2133a8;
+                return this['flag_underWater'] || this['flag_usingAbility'] && (0x6 == this[_0x27b968(0x1d9)] || 0x1d == this['type'] || 0x20 == this[_0x27b968(0x1d9)]) ? 0x0 : 0.3;
+            }) : _0x5e7c6d && (_0x5400ef[_0x2133a8(0x23b)][_0x2133a8(0xe6)][_0x2133a8(0x155)] = _0x5e7c6d);
+        } catch (_0x337c83) {
+            console[_0x2133a8(0x1de)](_0x2133a8(0x1bb), _0x337c83);
+        } else setTimeout(_0x5e0397, 0x1f4);
+    }
+    var _0x2a660d = _0x48dd0f(0x20e);
+
+    function _0x3f3213(_0x3c544b) {
+        var _0x4e266e = _0x48dd0f;
+        _0x22c105[_0x4e266e(0x19f)] = _0x3c544b, _0x4ac5ff(_0x4e266e(0x19f), _0x3c544b), document[_0x4e266e(0x1ab)]['style']['setProperty'](_0x4e266e(0x1b0), _0x3c544b), document[_0x4e266e(0x1ab)][_0x4e266e(0x192)][_0x4e266e(0x205)]('--theme-color-dark', _0x3c544b + 'dd'), document[_0x4e266e(0x1ab)][_0x4e266e(0x192)]['setProperty'](_0x4e266e(0x191), _0x3c544b + '33'), document[_0x4e266e(0x1ab)][_0x4e266e(0x192)]['setProperty'](_0x4e266e(0x20d), _0x3c544b + '11'), document[_0x4e266e(0xf7)](_0x4e266e(0x1d8))[_0x4e266e(0x24e)](function(_0x550b84) {
+            var _0x1ceae6 = _0x4e266e;
+            _0x550b84[_0x1ceae6(0x23d)]['remove'](_0x1ceae6(0xfc)), _0x550b84[_0x1ceae6(0x19d)][_0x1ceae6(0xff)] === _0x3c544b && _0x550b84[_0x1ceae6(0x23d)][_0x1ceae6(0x221)](_0x1ceae6(0xfc));
+        });
+        var _0x3f0a64 = document[_0x4e266e(0x22c)](_0x4e266e(0x226));
+        _0x3f0a64 && (_0x3f0a64[_0x4e266e(0x1ea)] = _0x3c544b);
+    }
+    var _0x444f1f = function() {
+        var _0x23002d = _0x48dd0f;
+        if (_0x3ecc4c['UI'][_0x23002d(0x233)] = {
+                'zoom': document[_0x23002d(0x22c)](_0x23002d(0xf9)),
+                'allDragons': document[_0x23002d(0x22c)]('allDragonsToggle'),
+                'waterSpam': document[_0x23002d(0x22c)](_0x23002d(0x23c)),
+                'lock': document[_0x23002d(0x22c)](_0x23002d(0x1a3)),
+                'drag': document[_0x23002d(0x22c)]('dragToggle'),
+                'xp': document[_0x23002d(0x22c)](_0x23002d(0x1fd)),
+                'displayWins': document[_0x23002d(0x22c)]('displayWinsToggle'),
+                'spinSpeed': document[_0x23002d(0x22c)](_0x23002d(0x265)),
+                'hideWorld': document['getElementById'](_0x23002d(0x17a)),
+                'nickSpoofer': document[_0x23002d(0x22c)](_0x23002d(0xf5))
+            }, _0x3ecc4c['UI'][_0x23002d(0x10d)] = {
+                'waterSpamKey': document[_0x23002d(0x22c)]('waterSpamKeyInput'),
+                'playerTransparencyKey': document['getElementById']('playerTransparencyKeyInput'),
+                'menuKey': document[_0x23002d(0x22c)](_0x23002d(0x247)),
+                'waterColor': document[_0x23002d(0x22c)]('waterColorPicker'),
+                'spinSpeedRange': document[_0x23002d(0x22c)](_0x23002d(0x257)),
+                'spinSpeedValue': document[_0x23002d(0x22c)](_0x23002d(0x253)),
+                'angleMode': document[_0x23002d(0x22c)](_0x23002d(0x15f)),
+                'themeColor': document[_0x23002d(0x22c)](_0x23002d(0x226)),
+                'backgroundOpacity': document['getElementById'](_0x23002d(0x255)),
+                'backgroundColor': document['getElementById'](_0x23002d(0x1af)),
+                'nickSpoofer': document[_0x23002d(0x22c)](_0x23002d(0x21d)),
+                'nickColor': document[_0x23002d(0x22c)](_0x23002d(0x15d)),
+                'showMainMenuKey': document[_0x23002d(0x22c)](_0x23002d(0x197))
+            }, _0x3ecc4c['UI'][_0x23002d(0x242)] = {
+                'spinSpeed': document[_0x23002d(0x22c)](_0x23002d(0x163)),
+                'nickSpoofer': document[_0x23002d(0x128)]('.rgz-feature:has(#nickSpooferToggle)\x20.rgz-feature-content')
+            }, _0x3ecc4c['UI'][_0x23002d(0x235)] = {
+                'settings': document[_0x23002d(0x22c)](_0x23002d(0x1dd))
+            }, _0x3ecc4c['UI'][_0x23002d(0x1b2)] = {
+                'waterColor': document['getElementById'](_0x23002d(0x1f8)),
+                'nickColor': document['getElementById'](_0x23002d(0x105))
+            }, _0x3ecc4c['UI']['settingsPanel'] = document[_0x23002d(0x22c)](_0x23002d(0x1e7)), _0x3f3213(_0x22c105[_0x23002d(0x19f)]), document['querySelectorAll'](_0x23002d(0x1d8))[_0x23002d(0x24e)](function(_0x315b05) {
+                var _0x4b83b9 = _0x23002d;
+                _0x315b05[_0x4b83b9(0x19d)][_0x4b83b9(0xff)] === _0x22c105[_0x4b83b9(0x19f)] && _0x315b05[_0x4b83b9(0x23d)][_0x4b83b9(0x221)]('active'), _0x315b05['addEventListener'](_0x4b83b9(0xea), function() {
+                    var _0x436e5c = _0x4b83b9;
+                    _0x3f3213(_0x315b05[_0x436e5c(0x19d)][_0x436e5c(0xff)]), _0x2c8381('Theme\x20color\x20updated', _0x436e5c(0x264));
+                });
+            }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0xe9)] && (_0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0xe9)][_0x23002d(0x18e)] = _0x22c105[_0x23002d(0x16b)]), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x142)] && (_0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x142)]['checked'] = _0x22c105[_0x23002d(0x186)]), _0x3ecc4c['UI']['toggles'][_0x23002d(0x1b7)] && (_0x3ecc4c['UI']['toggles']['waterSpam'][_0x23002d(0x18e)] = _0x22c105[_0x23002d(0x24a)]), _0x3ecc4c['UI']['toggles'][_0x23002d(0x249)] && (_0x3ecc4c['UI'][_0x23002d(0x233)]['lock'][_0x23002d(0x18e)] = _0x22c105[_0x23002d(0x222)]), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x12f)] && (_0x3ecc4c['UI'][_0x23002d(0x233)]['drag']['checked'] = _0x22c105[_0x23002d(0x1b9)]), _0x3ecc4c['UI']['toggles']['xp'] && (_0x3ecc4c['UI']['toggles']['xp'][_0x23002d(0x18e)] = _0x22c105[_0x23002d(0x1aa)]), _0x3ecc4c['UI']['toggles'][_0x23002d(0x23f)] && (_0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x23f)][_0x23002d(0x18e)] = _0x22c105['displayWinsEnabled']), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x117)] && (_0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x117)]['checked'] = _0x22c105[_0x23002d(0x1e6)]), _0x3ecc4c['UI']['toggles'][_0x23002d(0x184)] && (_0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x184)][_0x23002d(0x18e)] = _0x22c105[_0x23002d(0x133)]), _0x3ecc4c['UI']['toggles'][_0x23002d(0x24d)] && (_0x3ecc4c['UI'][_0x23002d(0x233)]['nickSpoofer'][_0x23002d(0x18e)] = _0x22c105['nickSpooferEnabled']), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x19a)] && (_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x19a)][_0x23002d(0x1ea)] = _0x22c105[_0x23002d(0x19a)][_0x23002d(0x139)]()), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x120)] && (_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x120)][_0x23002d(0x1ea)] = _0x22c105['playerTransparencyKey'][_0x23002d(0x139)]()), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x13a)] && (_0x3ecc4c['UI']['inputs']['showMainMenuKey'][_0x23002d(0x1ea)] = _0x22c105['showMainMenuKey'][_0x23002d(0x139)]()), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x114)] && (_0x3ecc4c['UI'][_0x23002d(0x10d)]['menuKey'][_0x23002d(0x1ea)] = _0x22c105['menuKey'][_0x23002d(0x139)]()), _0x3ecc4c['UI']['inputs'][_0x23002d(0xf3)] && (_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0xf3)]['value'] = _0x22c105[_0x23002d(0x207)]), _0x3ecc4c['UI'][_0x23002d(0x10d)]['angleMode'] && (_0x3ecc4c['UI']['inputs'][_0x23002d(0x146)][_0x23002d(0x1ea)] = _0x22c105['angleMode'][_0x23002d(0x136)]()), _0x3ecc4c['UI'][_0x23002d(0x10d)]['themeColor'] && (_0x3ecc4c['UI']['inputs'][_0x23002d(0x18a)][_0x23002d(0x1ea)] = _0x22c105['uiThemeColor']), _0x3ecc4c['UI']['inputs'][_0x23002d(0x1fe)] && (_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x1fe)]['value'] = 0x64 * _0x22c105['uiBackgroundOpacity']), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x11c)] && (_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x11c)][_0x23002d(0x1ea)] = _0x22c105['backgroundColor']), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x24d)] && (_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x24d)][_0x23002d(0x1ea)] = _0x22c105[_0x23002d(0x182)]), _0x3ecc4c['UI'][_0x23002d(0x10d)]['nickColor'] && (_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x1cf)][_0x23002d(0x1ea)] = _0x22c105[_0x23002d(0x24c)]), _0x3ecc4c['UI']['inputs']['spinSpeedRange'] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x253)] && _0x3f586e(_0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x257)], _0x3ecc4c['UI']['inputs']['spinSpeedValue']), _0x3ecc4c['UI'][_0x23002d(0x242)]['spinSpeed'] && (_0x3ecc4c['UI'][_0x23002d(0x242)][_0x23002d(0x117)]['style'][_0x23002d(0x1df)] = _0x22c105[_0x23002d(0x1e6)] ? 'flex' : _0x23002d(0x1ca)), _0x3ecc4c['UI'][_0x23002d(0x242)][_0x23002d(0x24d)]) {
+            if (_0x22c105[_0x23002d(0x147)]) {
+                _0x3ecc4c['UI'][_0x23002d(0x242)]['nickSpoofer'][_0x23002d(0x192)][_0x23002d(0x1df)] = _0x23002d(0x1d4), _0x3ecc4c['UI'][_0x23002d(0x242)]['nickSpoofer'][_0x23002d(0x192)][_0x23002d(0x1a4)] = _0x23002d(0x1ca);
+                var _0x395416 = _0x3ecc4c['UI']['containers']['nickSpoofer'][_0x23002d(0x1d2)](_0x23002d(0x1a8));
+                _0x395416 && _0x395416[_0x23002d(0x23d)][_0x23002d(0x221)]('expanded');
+            } else {
+                _0x3ecc4c['UI'][_0x23002d(0x242)][_0x23002d(0x24d)][_0x23002d(0x192)][_0x23002d(0x1df)] = _0x23002d(0x1ca), _0x3ecc4c['UI'][_0x23002d(0x242)][_0x23002d(0x24d)][_0x23002d(0x192)][_0x23002d(0x1a4)] = '0';
+                var _0x4b759d = _0x3ecc4c['UI'][_0x23002d(0x242)]['nickSpoofer'][_0x23002d(0x1d2)](_0x23002d(0x1a8));
+                _0x4b759d && _0x4b759d['classList'][_0x23002d(0x20f)](_0x23002d(0x15b));
+            }
+        }
+        _0x22c105[_0x23002d(0x1b9)] && _0x3ecc4c['UI'][_0x23002d(0x157)] && (_0x3ecc4c['UI'][_0x23002d(0x157)]['removeEventListener'](_0x23002d(0x1ac), _0x266845), _0x3ecc4c['UI']['menu'][_0x23002d(0x239)](_0x23002d(0x1ac), _0x266845)), _0x3ecc4c['UI'][_0x23002d(0x235)]['settings'] && _0x3ecc4c['UI'][_0x23002d(0x235)][_0x23002d(0xf0)][_0x23002d(0x239)]('click', function() {
+            var _0x3223ec = _0x23002d;
+            _0x3ecc4c['UI'][_0x3223ec(0x1cb)] && (_0x3ecc4c['UI'][_0x3223ec(0x1cb)][_0x3223ec(0x192)][_0x3223ec(0x1df)] = _0x3223ec(0x1d4) === _0x3ecc4c['UI']['settingsPanel'][_0x3223ec(0x192)][_0x3223ec(0x1df)] ? _0x3223ec(0x1ca) : _0x3223ec(0x1d4));
+        }), _0x3ecc4c['UI'][_0x23002d(0x1b2)][_0x23002d(0xf3)] && _0x3ecc4c['UI']['palettes'][_0x23002d(0xf3)]['querySelectorAll']('.rgz-color-swatch')[_0x23002d(0x24e)](function(_0x56191a) {
+            var _0x2d5778 = _0x23002d;
+            _0x56191a['addEventListener'](_0x2d5778(0xea), function() {
+                var _0x2cbd8e = _0x2d5778,
+                    _0x58b63d = _0x56191a[_0x2cbd8e(0x19d)]['color'];
+                _0x22c105['customWaterColor'] = _0x58b63d, _0x4ac5ff(_0x2cbd8e(0x10b), _0x58b63d), _0x3ecc4c['UI'][_0x2cbd8e(0x10d)][_0x2cbd8e(0xf3)] && (_0x3ecc4c['UI'][_0x2cbd8e(0x10d)][_0x2cbd8e(0xf3)]['value'] = _0x58b63d), _0x10e058(), _0x2c8381(_0x2cbd8e(0x1bd), _0x2cbd8e(0x264));
+            });
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0xe9)] && _0x3ecc4c['UI'][_0x23002d(0x233)]['zoom']['addEventListener']('change', function(_0x64405a) {
+            var _0x33f7b0 = _0x23002d;
+            _0x22c105['zoomEnabled'] = _0x64405a[_0x33f7b0(0x1b1)][_0x33f7b0(0x18e)], _0x4ac5ff(_0x33f7b0(0x16b), _0x22c105[_0x33f7b0(0x16b)]);
+            var _0x1172c8 = document[_0x33f7b0(0x22c)]('gCanvas');
+            _0x1172c8 && (_0x22c105['zoomEnabled'] ? _0x1172c8['addEventListener'](_0x33f7b0(0x25a), _0x18172c, !0x0) : _0x1172c8['removeEventListener'](_0x33f7b0(0x25a), _0x18172c, !0x0)), _0x2c8381(_0x22c105[_0x33f7b0(0x16b)] ? _0x33f7b0(0x12d) : _0x33f7b0(0x236), _0x22c105[_0x33f7b0(0x16b)] ? _0x33f7b0(0x264) : 'disabled');
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)]['allDragons'] && _0x3ecc4c['UI'][_0x23002d(0x233)]['allDragons'][_0x23002d(0x239)](_0x23002d(0x14c), function(_0x4f64ec) {
+            var _0xb3da2e = _0x23002d;
+            _0x22c105[_0xb3da2e(0x186)] = _0x4f64ec[_0xb3da2e(0x1b1)][_0xb3da2e(0x18e)], _0x4ac5ff(_0xb3da2e(0x186), _0x22c105[_0xb3da2e(0x186)]), _0x380352(), _0x2c8381(_0x22c105[_0xb3da2e(0x186)] ? _0xb3da2e(0xe7) : 'All\x20Dragons\x20feature\x20disabled', _0x22c105[_0xb3da2e(0x186)] ? _0xb3da2e(0x264) : _0xb3da2e(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x184)] && _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x184)]['addEventListener'](_0x23002d(0x14c), function(_0x4ae273) {
+            var _0x12c05c = _0x23002d;
+            _0x22c105[_0x12c05c(0x133)] = _0x4ae273[_0x12c05c(0x1b1)][_0x12c05c(0x18e)], _0x4ac5ff(_0x12c05c(0x133), _0x22c105[_0x12c05c(0x133)]), _0x2c8381(_0x22c105['hideWorldEnabled'] ? _0x12c05c(0x1be) : _0x12c05c(0x15e), _0x22c105[_0x12c05c(0x133)] ? _0x12c05c(0x264) : _0x12c05c(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x1b7)] && _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x1b7)]['addEventListener'](_0x23002d(0x14c), function(_0x6ce4d8) {
+            var _0x41b640 = _0x23002d;
+            _0x22c105['waterSpamEnabled'] = _0x6ce4d8[_0x41b640(0x1b1)][_0x41b640(0x18e)], _0x4ac5ff('waterSpamToggle', _0x22c105['waterSpamEnabled']), _0x22c105['waterSpamEnabled'] || _0x28bbf0();
+            var _0x125b35 = _0x6ce4d8[_0x41b640(0x1b1)][_0x41b640(0x1d2)](_0x41b640(0x1a8));
+            _0x125b35 && (_0x22c105[_0x41b640(0x24a)] ? _0x125b35[_0x41b640(0x23d)][_0x41b640(0x221)](_0x41b640(0x15b)) : _0x125b35[_0x41b640(0x23d)][_0x41b640(0x20f)]('expanded')), _0x2c8381(_0x22c105[_0x41b640(0x24a)] ? 'Water\x20spam\x20enabled' : _0x41b640(0x1ce), _0x22c105[_0x41b640(0x24a)] ? _0x41b640(0x264) : _0x41b640(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x249)] && _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x249)][_0x23002d(0x239)](_0x23002d(0x14c), function(_0x370aa2) {
+            var _0x237aad = _0x23002d;
+            _0x22c105[_0x237aad(0x222)] = _0x370aa2[_0x237aad(0x1b1)]['checked'], _0x4ac5ff(_0x237aad(0x1a3), _0x22c105['lockEnabled']), _0x2c8381(_0x22c105[_0x237aad(0x222)] ? _0x237aad(0x1d3) : _0x237aad(0x122), _0x22c105[_0x237aad(0x222)] ? _0x237aad(0x264) : _0x237aad(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x12f)] && _0x3ecc4c['UI']['toggles'][_0x23002d(0x12f)][_0x23002d(0x239)](_0x23002d(0x14c), function(_0x4feebf) {
+            var _0x36b00a = _0x23002d;
+            _0x22c105[_0x36b00a(0x1b9)] = _0x4feebf[_0x36b00a(0x1b1)][_0x36b00a(0x18e)], _0x4ac5ff('dragToggle', _0x22c105['draggingEnabled']), _0x3ecc4c['UI'][_0x36b00a(0x157)] && (_0x3ecc4c['UI'][_0x36b00a(0x157)][_0x36b00a(0x220)](_0x36b00a(0x1ac), _0x266845()), _0x22c105[_0x36b00a(0x1b9)] && _0x3ecc4c['UI'][_0x36b00a(0x157)]['addEventListener'](_0x36b00a(0x1ac), _0x266845())), _0x2c8381(_0x22c105[_0x36b00a(0x1b9)] ? _0x36b00a(0x16f) : 'UI\x20dragging\x20disabled', _0x22c105[_0x36b00a(0x1b9)] ? _0x36b00a(0x264) : _0x36b00a(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)]['xp'] && _0x3ecc4c['UI'][_0x23002d(0x233)]['xp'][_0x23002d(0x239)]('change', function(_0x4d7719) {
+            var _0x4ee44b = _0x23002d;
+            _0x22c105[_0x4ee44b(0x1aa)] = _0x4d7719[_0x4ee44b(0x1b1)][_0x4ee44b(0x18e)], _0x4ac5ff('showNextXPToggle', _0x22c105[_0x4ee44b(0x1aa)]), _0x3ecc4c['UI'][_0x4ee44b(0x126)] && (_0x3ecc4c['UI'][_0x4ee44b(0x126)][_0x4ee44b(0x192)]['display'] = _0x22c105[_0x4ee44b(0x1aa)] ? _0x4ee44b(0x1d4) : 'none'), _0x2c8381(_0x22c105[_0x4ee44b(0x1aa)] ? 'XP\x20display\x20enabled' : _0x4ee44b(0x1a7), _0x22c105[_0x4ee44b(0x1aa)] ? _0x4ee44b(0x264) : _0x4ee44b(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x23f)] && _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x23f)]['addEventListener']('change', function(_0x2b1ec1) {
+            var _0x4d0db2 = _0x23002d;
+            _0x22c105['displayWinsEnabled'] = _0x2b1ec1[_0x4d0db2(0x1b1)][_0x4d0db2(0x18e)], _0x4ac5ff(_0x4d0db2(0x17b), _0x22c105[_0x4d0db2(0x214)]), _0x22c105[_0x4d0db2(0x214)] ? _0x2489d6() : (function() {
+                var _0x386ef6 = _0x4d0db2;
+                if (_0x3ecc4c[_0x386ef6(0x125)]) {
+                    if (console[_0x386ef6(0x25c)](_0x386ef6(0x17c)), _0x3ecc4c[_0x386ef6(0x1fc)] && (clearInterval(_0x3ecc4c[_0x386ef6(0x1fc)]), _0x3ecc4c[_0x386ef6(0x1fc)] = null), _0x5400ef[_0x386ef6(0x198)] = !0x1, _0x5400ef[_0x386ef6(0x23b)] && _0x5400ef[_0x386ef6(0x23b)][_0x386ef6(0xe6)]) {
+                        var _0x49dd1d = _0x3ecc4c['originalUpdateNick'];
+                        _0x5400ef['Animal']['prototype'][_0x386ef6(0x150)] = _0x49dd1d, _0x3ecc4c[_0x386ef6(0x125)] = null, setTimeout(function() {
+                            var _0x467df4 = _0x386ef6;
+                            try {
+                                if (console[_0x467df4(0x25c)](_0x467df4(0x259)), _0x5400ef[_0x467df4(0x131)]) {
+                                    for (var _0x338ed4 in _0x5400ef['a0_0x4ca616']) {
+                                        var _0xa8d057 = _0x5400ef[_0x467df4(0x131)][_0x338ed4];
+                                        _0xa8d057 && (_0xa8d057[_0x467df4(0x211)] = !0x1);
+                                    }
+                                    for (var _0xb8abba in _0x5400ef['a0_0x4ca616']) {
+                                        var _0x236f6c = _0x5400ef['a0_0x4ca616'][_0xb8abba];
+                                        if (_0x236f6c && _0x236f6c[_0x467df4(0x150)] && _0x467df4(0x1a0) == typeof _0x236f6c[_0x467df4(0x150)]) try {
+                                            _0x236f6c[_0x467df4(0x150)]();
+                                        } catch (_0x5b09ea) {
+                                            console[_0x467df4(0x1de)](_0x467df4(0x106), _0x5b09ea);
+                                        }
+                                    }
+                                }
+                            } catch (_0x495014) {
+                                console[_0x467df4(0x1de)](_0x467df4(0x190), _0x495014);
+                            }
+                        }, 0x64);
+                    }
+                    console[_0x386ef6(0x25c)](_0x386ef6(0xfb));
+                }
+            }()), _0x2c8381(_0x22c105['displayWinsEnabled'] ? '1v1\x20wins\x20display\x20enabled' : '1v1\x20wins\x20display\x20disabled', _0x22c105[_0x4d0db2(0x214)] ? _0x4d0db2(0x264) : _0x4d0db2(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x117)] && _0x3ecc4c['UI']['toggles']['spinSpeed'][_0x23002d(0x239)]('change', function(_0x5ebc2c) {
+            var _0x2e08b5 = _0x23002d;
+            _0x22c105[_0x2e08b5(0x1e6)] = _0x5ebc2c[_0x2e08b5(0x1b1)][_0x2e08b5(0x18e)], _0x4ac5ff(_0x2e08b5(0x1e6), _0x22c105['spinSpeedEnabled']), _0x3ecc4c['UI'][_0x2e08b5(0x242)][_0x2e08b5(0x117)] && (_0x3ecc4c['UI']['containers']['spinSpeed'][_0x2e08b5(0x192)]['display'] = _0x22c105['spinSpeedEnabled'] ? _0x2e08b5(0x1ef) : 'none');
+            var _0x43d9a7 = _0x5ebc2c['target']['closest'](_0x2e08b5(0x1a8));
+            _0x43d9a7 && (_0x22c105[_0x2e08b5(0x1e6)] ? _0x43d9a7[_0x2e08b5(0x23d)]['add'](_0x2e08b5(0x15b)) : _0x43d9a7['classList'][_0x2e08b5(0x20f)](_0x2e08b5(0x15b))), _0x2c8381(_0x22c105[_0x2e08b5(0x1e6)] ? _0x2e08b5(0x13b) : _0x2e08b5(0x20b), _0x22c105[_0x2e08b5(0x1e6)] ? _0x2e08b5(0x264) : _0x2e08b5(0x168));
+        }), _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x24d)] && _0x3ecc4c['UI'][_0x23002d(0x233)][_0x23002d(0x24d)]['addEventListener'](_0x23002d(0x14c), function(_0x261788) {
+            var _0x53bec5 = _0x23002d;
+            _0x22c105[_0x53bec5(0x147)] = _0x261788[_0x53bec5(0x1b1)]['checked'], _0x4ac5ff(_0x53bec5(0x147), _0x22c105[_0x53bec5(0x147)]),
+                function(_0x3d1d1f) {
+                    var _0x1ed15c = _0x53bec5;
+                    if (_0x22c105['nickSpooferEnabled'] = _0x3d1d1f, _0x4ac5ff('nickSpooferEnabled', _0x3d1d1f), _0x3d1d1f) {
+                        if (_0x31f539) {
+                            _0x29a391(!0x0);
+                            var _0x42c5b8 = _0x4ff86f();
+                            _0x42c5b8 && _0x42c5b8[_0x1ed15c(0x12a)] && _0x42c5b8[_0x1ed15c(0x12a)]['setText'](_0x22c105[_0x1ed15c(0x182)]);
+                        } else console[_0x1ed15c(0x25c)](_0x1ed15c(0x1b4));
+                    } else _0x29a391(!0x1), _0x31f539 = !0x1;
+                }(_0x22c105['nickSpooferEnabled']);
+            var _0x1c6240 = _0x261788[_0x53bec5(0x1b1)]['closest']('.rgz-feature'),
+                _0x4b8951 = null == _0x1c6240 ? void 0x0 : _0x1c6240[_0x53bec5(0x128)]('.rgz-feature-content');
+            _0x1c6240 && _0x4b8951 && (_0x22c105['nickSpooferEnabled'] ? (_0x1c6240[_0x53bec5(0x23d)][_0x53bec5(0x221)](_0x53bec5(0x15b)), _0x4b8951[_0x53bec5(0x192)][_0x53bec5(0x1df)] = _0x53bec5(0x1d4), _0x4b8951[_0x53bec5(0x192)][_0x53bec5(0x1a4)] = _0x53bec5(0x1ca)) : (_0x1c6240['classList']['remove'](_0x53bec5(0x15b)), _0x4b8951[_0x53bec5(0x192)][_0x53bec5(0x1df)] = _0x53bec5(0x1ca), _0x4b8951['style'][_0x53bec5(0x1a4)] = '0')), _0x2c8381(_0x22c105[_0x53bec5(0x147)] ? _0x53bec5(0x262) : _0x53bec5(0x22f), _0x22c105[_0x53bec5(0x147)] ? _0x53bec5(0x264) : _0x53bec5(0x168));
+        }), _0x3ecc4c['UI']['inputs'][_0x23002d(0x19a)] && _0x3ecc4c['UI']['inputs'][_0x23002d(0x19a)][_0x23002d(0x239)](_0x23002d(0x1c0), function(_0xa79b15) {
+            var _0x4364eb = _0x23002d,
+                _0x11a05f = _0xa79b15['target'][_0x4364eb(0x1ea)][_0x4364eb(0x24f)]();
+            /^[a-z]$/ ['test'](_0x11a05f) && (_0x22c105[_0x4364eb(0x19a)] = _0x11a05f, _0x4ac5ff(_0x4364eb(0x19a), _0x22c105[_0x4364eb(0x19a)]), _0x2c8381(_0x4364eb(0x109)[_0x4364eb(0x210)](_0x11a05f[_0x4364eb(0x139)](), '\x27'), 'enabled'));
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x120)] && _0x3ecc4c['UI']['inputs'][_0x23002d(0x120)][_0x23002d(0x239)]('input', function(_0x31733f) {
+            var _0x4df2df = _0x23002d,
+                _0x5846fe = _0x31733f['target'][_0x4df2df(0x1ea)][_0x4df2df(0x24f)]();
+            /^[a-z]$/ [_0x4df2df(0x134)](_0x5846fe) && (_0x22c105['playerTransparencyKey'] = _0x5846fe, _0x4ac5ff('playerTransparencyKey', _0x22c105[_0x4df2df(0x120)]), _0x2c8381(_0x4df2df(0x1e5)[_0x4df2df(0x210)](_0x5846fe[_0x4df2df(0x139)](), '\x27'), _0x4df2df(0x264)));
+        }), _0x3ecc4c['UI']['inputs'][_0x23002d(0x13a)] && _0x3ecc4c['UI']['inputs'][_0x23002d(0x13a)][_0x23002d(0x239)](_0x23002d(0x1c0), function(_0x752b8a) {
+            var _0x2fd0a1 = _0x23002d,
+                _0x179841 = _0x752b8a['target'][_0x2fd0a1(0x1ea)][_0x2fd0a1(0x24f)]();
+            /^[a-z]$/ [_0x2fd0a1(0x134)](_0x179841) && (_0x22c105['showMainMenuKey'] = _0x179841, _0x4ac5ff('showMainMenuKey', _0x22c105[_0x2fd0a1(0x13a)]), _0x2c8381(_0x2fd0a1(0x23e)[_0x2fd0a1(0x210)](_0x179841[_0x2fd0a1(0x139)](), '\x27'), _0x2fd0a1(0x264)));
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x114)] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x114)][_0x23002d(0x239)](_0x23002d(0x1c0), function(_0x691db6) {
+            var _0x3b153b = _0x23002d,
+                _0x35ea7d = _0x691db6['target'][_0x3b153b(0x1ea)][_0x3b153b(0x24f)]();
+            /^[a-z]$/ [_0x3b153b(0x134)](_0x35ea7d) && (_0x22c105[_0x3b153b(0x114)] = _0x35ea7d, _0x4ac5ff(_0x3b153b(0x114), _0x22c105[_0x3b153b(0x114)]), _0x2c8381(_0x3b153b(0x1e9)['concat'](_0x35ea7d['toUpperCase'](), '\x27'), _0x3b153b(0x264)));
+        }), _0x3ecc4c['UI']['inputs']['waterColor'] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0xf3)]['addEventListener'](_0x23002d(0x1c0), function(_0x447586) {
+            var _0x301c2d = _0x23002d;
+            _0x22c105[_0x301c2d(0x207)] = _0x447586['target'][_0x301c2d(0x1ea)], _0x4ac5ff(_0x301c2d(0x10b), _0x22c105['customWaterColor']), _0x10e058(), _0x2c8381(_0x301c2d(0x1bd), 'enabled');
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x11c)] && _0x3ecc4c['UI'][_0x23002d(0x10d)]['backgroundColor'][_0x23002d(0x239)](_0x23002d(0x1c0), function(_0x208925) {
+            var _0x979f91 = _0x23002d;
+            ! function(_0x1385b9) {
+                var _0x4cf3ac = _0x161a;
+                _0x4cf3ac(0x230) !== _0x1385b9 && _0x4cf3ac(0x1c8) !== _0x1385b9 || (_0x1385b9 = _0x2a660d), _0x22c105['backgroundColor'] = _0x1385b9, _0x4ac5ff(_0x4cf3ac(0x11c), _0x1385b9), document[_0x4cf3ac(0x251)][_0x4cf3ac(0x192)][_0x4cf3ac(0x11c)] = _0x1385b9;
+            }(_0x208925[_0x979f91(0x1b1)][_0x979f91(0x1ea)]), _0x2c8381(_0x979f91(0x1cc), 'enabled');
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x257)] && _0x3ecc4c['UI'][_0x23002d(0x10d)]['spinSpeedValue'] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x257)][_0x23002d(0x239)]('input', function(_0x434bb3) {
+            var _0x55c9b4 = _0x23002d,
+                _0x42e5d9 = parseInt(_0x434bb3[_0x55c9b4(0x1b1)][_0x55c9b4(0x1ea)]);
+            _0x22c105[_0x55c9b4(0x117)] = _0x42e5d9, _0x3ecc4c['UI'][_0x55c9b4(0x10d)][_0x55c9b4(0x253)][_0x55c9b4(0xeb)] = _0x42e5d9, _0x3f586e(_0x3ecc4c['UI'][_0x55c9b4(0x10d)][_0x55c9b4(0x257)], _0x3ecc4c['UI'][_0x55c9b4(0x10d)][_0x55c9b4(0x253)]), _0x4ac5ff(_0x55c9b4(0x117), _0x22c105[_0x55c9b4(0x117)]);
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)]['themeColor'] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x18a)][_0x23002d(0x239)](_0x23002d(0x1c0), function(_0x2764c4) {
+            var _0x215082 = _0x23002d;
+            _0x3f3213(_0x2764c4['target'][_0x215082(0x1ea)]);
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x1fe)] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x1fe)][_0x23002d(0x239)](_0x23002d(0x1c0), function(_0x1ea063) {
+            ! function(_0x47b763) {
+                var _0x4742f4 = _0x161a;
+                _0x22c105[_0x4742f4(0x156)] = _0x47b763, _0x4ac5ff(_0x4742f4(0x156), _0x47b763), document[_0x4742f4(0x1ab)][_0x4742f4(0x192)][_0x4742f4(0x205)](_0x4742f4(0x180), _0x47b763);
+                var _0x365a03 = document['getElementById'](_0x4742f4(0x1ad));
+                _0x365a03 && (_0x365a03['textContent'] = Math[_0x4742f4(0x141)](0x64 * _0x47b763) + '%');
+            }(parseInt(_0x1ea063['target']['value']) / 0x64);
+        }), _0x3ecc4c['UI']['inputs'][_0x23002d(0x146)] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x146)][_0x23002d(0x239)](_0x23002d(0x14c), function(_0x54bb2b) {
+            var _0x22d993 = _0x23002d;
+            _0x22c105[_0x22d993(0x146)] = parseInt(_0x54bb2b[_0x22d993(0x1b1)][_0x22d993(0x1ea)]), _0x4ac5ff(_0x22d993(0x146), _0x22c105['angleMode']), _0x2c8381(_0x22d993(0x18d)['concat'](['Ease-out', _0x22d993(0x107), 'Ease-in', _0x22d993(0x1b5)][_0x22c105[_0x22d993(0x146)]]), _0x22d993(0x264));
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x24d)] && _0x3ecc4c['UI']['inputs'][_0x23002d(0x24d)]['addEventListener'](_0x23002d(0x167), function(_0x581567) {
+            var _0x5e473d = _0x23002d,
+                _0x665b59 = _0x581567[_0x5e473d(0x1b1)]['value'][_0x5e473d(0x1ec)]();
+            _0x665b59 && (_0x23ad42(_0x665b59, null), _0x2c8381(_0x5e473d(0xf2)['concat'](_0x665b59, '\x22'), _0x5e473d(0x264)));
+        }), _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x1cf)] && _0x3ecc4c['UI'][_0x23002d(0x10d)][_0x23002d(0x1cf)][_0x23002d(0x239)](_0x23002d(0x1c0), function(_0x51f7e4) {
+            var _0x3a7168 = _0x23002d;
+            _0x23ad42(null, _0x51f7e4[_0x3a7168(0x1b1)][_0x3a7168(0x1ea)]), _0x2c8381(_0x3a7168(0x1f5), _0x3a7168(0x264));
+        }), _0x3ecc4c['UI'][_0x23002d(0x1b2)][_0x23002d(0x1cf)] && _0x3ecc4c['UI']['palettes'][_0x23002d(0x1cf)][_0x23002d(0xf7)](_0x23002d(0x158))['forEach'](function(_0x3e53ed) {
+            var _0xb72cac = _0x23002d;
+            _0x3e53ed['addEventListener'](_0xb72cac(0xea), function() {
+                var _0x43613e = _0xb72cac,
+                    _0x20b27d = _0x3e53ed['dataset'][_0x43613e(0xff)];
+                _0x3ecc4c['UI'][_0x43613e(0x10d)][_0x43613e(0x1cf)] && (_0x3ecc4c['UI']['inputs']['nickColor'][_0x43613e(0x1ea)] = _0x20b27d), _0x23ad42(null, _0x20b27d), _0x2c8381('Nickname\x20color\x20set\x20to\x20' ['concat'](_0x3e53ed['title']), 'enabled');
+            });
+        }), document[_0x23002d(0xf7)](_0x23002d(0x1a8))['forEach'](function(_0x1f3d62) {
+            var _0x43ee07 = _0x23002d,
+                _0x1418b0 = _0x1f3d62['querySelector'](_0x43ee07(0x237)),
+                _0x1eff26 = _0x1f3d62[_0x43ee07(0x128)](_0x43ee07(0x263)),
+                _0x125083 = _0x1f3d62['querySelector'](_0x43ee07(0x256));
+            if (_0x1418b0 && _0x1eff26 && _0x1418b0['addEventListener'](_0x43ee07(0xea), function(_0x134167) {
+                    var _0x4a064d = _0x43ee07;
+                    _0x134167[_0x4a064d(0x1b1)][_0x4a064d(0x1d2)]('.rgz-switch') || _0x134167[_0x4a064d(0x1b1)]['closest'](_0x4a064d(0x1b8)) || _0x134167[_0x4a064d(0x1b1)][_0x4a064d(0x1d2)](_0x4a064d(0x219)) || _0x134167[_0x4a064d(0x1b1)][_0x4a064d(0x1d2)](_0x4a064d(0x13c)) || _0x1f3d62['classList'][_0x4a064d(0x22d)](_0x4a064d(0x15b));
+                }), _0x125083 && _0x1eff26) {
+                var _0x5f2460 = _0x125083['id'],
+                    _0x55a80c = {
+                        'waterSpamToggle': _0x43ee07(0x24a),
+                        'spinSpeedToggle': _0x43ee07(0x1e6),
+                        'nickSpooferToggle': _0x43ee07(0x147)
+                    };
+                _0x55a80c[_0x5f2460] && _0x22c105[_0x55a80c[_0x5f2460]] ? (_0x1f3d62['classList']['add'](_0x43ee07(0x15b)), _0x43ee07(0xf5) !== _0x5f2460 && _0x43ee07(0x265) !== _0x5f2460 && _0x43ee07(0x23c) !== _0x5f2460 || (_0x1eff26[_0x43ee07(0x192)][_0x43ee07(0x1df)] = _0x43ee07(0x1d4), _0x1eff26['style'][_0x43ee07(0x1a4)] = _0x43ee07(0x1ca))) : (_0x1f3d62['classList'][_0x43ee07(0x20f)](_0x43ee07(0x15b)), 'nickSpooferToggle' !== _0x5f2460 && _0x43ee07(0x265) !== _0x5f2460 && _0x43ee07(0x23c) !== _0x5f2460 || (_0x1eff26[_0x43ee07(0x192)][_0x43ee07(0x1df)] = _0x43ee07(0x1ca), _0x1eff26[_0x43ee07(0x192)][_0x43ee07(0x1a4)] = '0'));
+            }
+        });
+    };
+
+    function _0xfcb394(_0x33dfee) {
+        var _0x206eda = _0x48dd0f,
+            _0x57c796;
+        _0x4cc0a4() || (_0x33dfee[_0x206eda(0x15a)]['toLowerCase']() === _0x22c105[_0x206eda(0x114)] && (_0x22c105['menuVisible'] = !_0x22c105[_0x206eda(0x200)], _0x3ecc4c['UI'][_0x206eda(0x157)] && (_0x3ecc4c['UI'][_0x206eda(0x157)][_0x206eda(0x192)][_0x206eda(0x1df)] = _0x22c105[_0x206eda(0x200)] ? _0x206eda(0x1d4) : 'none'), _0x4ac5ff(_0x206eda(0xfa), _0x22c105[_0x206eda(0x200)]), _0x2c8381(_0x22c105[_0x206eda(0x200)] ? 'Menu\x20visibility\x20enabled' : 'Menu\x20visibility\x20disabled', _0x22c105['menuVisible'] ? _0x206eda(0x264) : 'disabled')), _0x33dfee[_0x206eda(0x15a)][_0x206eda(0x24f)]() === _0x22c105['waterSpamKey'] && _0x22c105[_0x206eda(0x24a)] && !_0x3ecc4c[_0x206eda(0x201)] && (_0x3ecc4c[_0x206eda(0x201)] = !0x0, _0x3ecc4c[_0x206eda(0x1ed)] && clearInterval(_0x3ecc4c[_0x206eda(0x1ed)]), _0x3ecc4c[_0x206eda(0x1ed)] = setInterval(function() {
+            var _0x82ad72 = _0x206eda,
+                _0x22153a = document[_0x82ad72(0x206)] || document[_0x82ad72(0x251)],
+                _0x894044 = new KeyboardEvent(_0x82ad72(0x1b3), {
+                    'key': 's',
+                    'code': _0x82ad72(0x13f),
+                    'keyCode': 0x53,
+                    'which': 0x53,
+                    'bubbles': !0x0
+                }),
+                _0x12d72e = new KeyboardEvent('keyup', {
+                    'key': 's',
+                    'code': _0x82ad72(0x13f),
+                    'keyCode': 0x53,
+                    'which': 0x53,
+                    'bubbles': !0x0
+                });
+            _0x22153a[_0x82ad72(0x181)](_0x894044), setTimeout(function() {
+                return _0x22153a['dispatchEvent'](_0x12d72e);
+            }, 0x5);
+        }, 0xa)), _0x206eda(0x1c7) === _0x33dfee[_0x206eda(0x15a)] && _0x22c105[_0x206eda(0x222)] && (_0x3ecc4c[_0x206eda(0x20c)] = !_0x3ecc4c[_0x206eda(0x20c)], _0x2c8381(_0x3ecc4c[_0x206eda(0x20c)] ? _0x206eda(0x1ff) : _0x206eda(0x162), _0x3ecc4c['mouseLocked'] ? _0x206eda(0x264) : _0x206eda(0x168))), _0x33dfee[_0x206eda(0x15a)]['toLowerCase']() === _0x22c105['playerTransparencyKey'] && (_0x22c105[_0x206eda(0x1ee)] = !_0x22c105[_0x206eda(0x1ee)], _0x4ac5ff('playerTransparencyToggle', _0x22c105[_0x206eda(0x1ee)]), _0x5e0397(), _0x2c8381(_0x22c105[_0x206eda(0x1ee)] ? _0x206eda(0xee) : 'Player\x20transparency\x20disabled', _0x22c105['playerTransparencyEnabled'] ? _0x206eda(0x264) : _0x206eda(0x168))), _0x33dfee[_0x206eda(0x15a)][_0x206eda(0x24f)]() === _0x22c105['showMainMenuKey'] && (_0x22c105[_0x206eda(0x154)] = !_0x22c105['showMainMenuEnabled'], _0x4ac5ff(_0x206eda(0x14b), _0x22c105[_0x206eda(0x154)]), (_0x57c796 = document[_0x206eda(0x22c)](_0x206eda(0x1db)))[_0x206eda(0x192)][_0x206eda(0x1df)] = _0x206eda(0x1ca) == _0x57c796[_0x206eda(0x192)][_0x206eda(0x1df)] ? _0x206eda(0x1d4) : _0x206eda(0x1ca), _0x2c8381(_0x22c105[_0x206eda(0x154)] ? _0x206eda(0x1d0) : _0x206eda(0x1f9), _0x22c105[_0x206eda(0x154)] ? _0x206eda(0x264) : 'disabled')));
+    }
+
+    function _0x57c28d(_0x3957b0) {
+        var _0x5027cd = _0x48dd0f;
+        _0x3957b0[_0x5027cd(0x15a)]['toLowerCase']() === _0x22c105['waterSpamKey'] && _0x22c105[_0x5027cd(0x24a)] && (_0x3ecc4c[_0x5027cd(0x201)] = !0x1, _0x28bbf0());
+    }
+
+    function _0x56e32a(_0x3a1093) {
+        var _0x519fd6 = _0x48dd0f;
+        _0x3ecc4c[_0x519fd6(0x20c)] && _0x3a1093['stopImmediatePropagation']();
+    }
+
+    function _0x587279() {
+        var _0x3ebb32 = _0x48dd0f;
+        if (_0x22c105[_0x3ebb32(0x1aa)] && _0x3ecc4c['UI'][_0x3ebb32(0x126)]) try {
+            if (void 0x0 === _0x5400ef[_0x3ebb32(0x145)] || !_0x5400ef['a0_0xc4c8a8']) return void(_0x3ecc4c['UI'][_0x3ebb32(0x126)][_0x3ebb32(0xeb)] = 'Loading\x20XP...');
+            _0x3ecc4c['UI'][_0x3ebb32(0x126)]['style'][_0x3ebb32(0x11e)] = _0x3ebb32(0x108), _0x3ecc4c['UI'][_0x3ebb32(0x126)]['style'][_0x3ebb32(0x124)] = '266px', _0x3ecc4c['UI']['xpDisplay'][_0x3ebb32(0x192)][_0x3ebb32(0x245)] = _0x3ebb32(0x12e);
+            var _0x40f1f6 = _0x5400ef['a0_0xc4c8a8'][_0x3ebb32(0x118)] || '',
+                _0x8faad9 = _0x40f1f6[_0x3ebb32(0x1d5)](/([0-9.,]+[KMB]?) xp.*?\(([0-9.,]+[KMB]?) xp/i);
+            if (_0x8faad9) {
+                var _0x15f045, _0x9f1ff5 = function(_0x1b5cbb) {
+                        var _0x3f6f55 = _0x3ebb32;
+                        try {
+                            var _0x1479c1 = _0x1b5cbb[_0x3f6f55(0x1d1)](/,/g, '');
+                            return _0x1479c1 = _0x1479c1[_0x3f6f55(0x1bf)]('K') || _0x1479c1[_0x3f6f55(0x1bf)]('k') ? 0x3e8 * parseFloat(_0x1479c1[_0x3f6f55(0x187)](0x0, -0x1)) : _0x1479c1[_0x3f6f55(0x1bf)]('M') || _0x1479c1['endsWith']('m') ? 0xf4240 * parseFloat(_0x1479c1[_0x3f6f55(0x187)](0x0, -0x1)) : _0x1479c1[_0x3f6f55(0x1bf)]('B') || _0x1479c1[_0x3f6f55(0x1bf)]('b') ? 0x3b9aca00 * parseFloat(_0x1479c1[_0x3f6f55(0x187)](0x0, -0x1)) : parseFloat(_0x1479c1);
+                        } catch (_0x4c57dd) {
+                            return console[_0x3f6f55(0x1de)](_0x3f6f55(0x176), _0x4c57dd), 0x0;
+                        }
+                    },
+                    _0x51cbde = _0x9f1ff5(_0x8faad9[0x1]),
+                    _0x55c405 = _0x9f1ff5(_0x8faad9[0x2]) - _0x51cbde;
+                _0x15f045 = _0x55c405 >= 0x3b9aca00 ? (_0x55c405 / 0x3b9aca00)[_0x3ebb32(0x173)](0x1) + 'B' : _0x55c405 >= 0xf4240 ? (_0x55c405 / 0xf4240)[_0x3ebb32(0x173)](0x1) + 'M' : _0x55c405 >= 0x3e8 ? (_0x55c405 / 0x3e8)[_0x3ebb32(0x173)](0x1) + 'K' : Math[_0x3ebb32(0x25e)](_0x55c405), _0x3ecc4c['UI'][_0x3ebb32(0x126)]['textContent'] = _0x3ebb32(0x1c6)[_0x3ebb32(0x210)](_0x15f045, _0x3ebb32(0x164)), _0x3ecc4c['UI']['xpDisplay'][_0x3ebb32(0x192)][_0x3ebb32(0x1df)] = _0x3ebb32(0x1d4);
+            } else _0x3ecc4c['UI'][_0x3ebb32(0x126)]['textContent'] = _0x3ebb32(0x170);
+        } catch (_0x2f1571) {
+            console['error'](_0x3ebb32(0xec), _0x2f1571), _0x3ecc4c['UI']['xpDisplay'][_0x3ebb32(0xeb)] = _0x3ebb32(0x1fa);
+        }
+    }
+
+    function _0x35aa3e() {
+        var _0x535d1c = _0x48dd0f;
+
+        function _0x3d0fd6(_0x339981) {
+            return _0x339981 * (Math['PI'] / 0xb4);
+        }
+        if (!(_0x5400ef['GameObj'] && _0x5400ef[_0x535d1c(0x23b)] && _0x5400ef[_0x535d1c(0xef)][_0x535d1c(0xe6)] && _0x5400ef[_0x535d1c(0x23b)][_0x535d1c(0xe6)])) return console[_0x535d1c(0x25c)]('[RGZ\x20Modpack]\x20Game\x20objects\x20not\x20found,\x20retrying\x20in\x201s...'), void setTimeout(_0x35aa3e, 0x3e8);
+        _0x5400ef[_0x535d1c(0xef)]['nAngle'] = 0x0, _0x5400ef[_0x535d1c(0x23b)]['nAngle'] = 0x0;
+        var _0x5f44f7 = _0x5400ef[_0x535d1c(0xef)][_0x535d1c(0xe6)][_0x535d1c(0x202)];
+        _0x5400ef['GameObj'][_0x535d1c(0xe6)][_0x535d1c(0x202)] = function(_0x588ddc) {
+            var _0x3630e5 = _0x535d1c;
+            _0x5f44f7 && 'function' == typeof _0x5f44f7 && _0x5f44f7[_0x3630e5(0x14e)](this, _0x588ddc);
+            var _0x4f2296 = 0xe == this[_0x3630e5(0x196)] ? 0xb4 : 0x5a;
+            if (0x3 == _0x22c105[_0x3630e5(0x146)]) this[_0x3630e5(0x18b)] = _0x3d0fd6(_0x588ddc + _0x4f2296);
+            else {
+                var _0x3422c3 = _0x3d0fd6(_0x588ddc + _0x4f2296);
+                this[_0x3630e5(0x1c3)] = this[_0x3630e5(0x18b)], this[_0x3630e5(0x1f4)] = _0x3422c3, this[_0x3630e5(0x1da)] && (this[_0x3630e5(0x1c3)] = this[_0x3630e5(0x1f4)] = this[_0x3630e5(0x18b)] = _0x3422c3);
+            }
+        };
+        var _0x26565f = _0x5400ef[_0x535d1c(0x23b)][_0x535d1c(0xe6)][_0x535d1c(0x202)];
+        _0x5400ef['Animal'][_0x535d1c(0xe6)][_0x535d1c(0x202)] = function(_0x2be6b5) {
+            var _0x441641 = _0x535d1c;
+            _0x26565f && 'function' == typeof _0x26565f && _0x26565f[_0x441641(0x14e)](this, _0x2be6b5);
+            var _0x136f0a = _0x3d0fd6(_0x2be6b5 - 0x5a);
+            this['oAngle'] = this[_0x441641(0x18b)], this[_0x441641(0x1f4)] = _0x136f0a, this['firstPosUpd'] && (this[_0x441641(0x1c3)] = this[_0x441641(0x18b)] = this[_0x441641(0x1f4)] = _0x136f0a);
+        }, _0x5400ef['GameObj']['prototype'][_0x535d1c(0x195)] = function() {
+            var _0x26d580 = _0x535d1c;
+            if (this[_0x26d580(0x18b)] !== this['nAngle']) {
+                var _0xed7c3a, _0x1723ee;
+                switch (_0xed7c3a = _0x22c105[_0x26d580(0x1e6)] ? _0x3ecc4c['deltaTime'] / (0x3e8 / _0x22c105[_0x26d580(0x117)]) : 0x1, this[_0x26d580(0x1f3)] = function(_0x37446f, _0x2cb905) {
+                        for (var _0x538e09 = _0x2cb905 - _0x37446f; _0x538e09 > Math['PI'];) _0x538e09 -= 0x2 * Math['PI'];
+                        for (; _0x538e09 < -Math['PI'];) _0x538e09 += 0x2 * Math['PI'];
+                        return _0x538e09;
+                    }(this[_0x26d580(0x18b)], this['nAngle']) || 0x0, _0x22c105[_0x26d580(0x146)]) {
+                    case 0x1:
+                        _0x1723ee = this[_0x26d580(0x1f3)] * Math['min'](0.1 * _0xed7c3a, 0x1);
+                        break;
+                    case 0x2:
+                        _0x1723ee = this[_0x26d580(0x1f3)] * Math[_0x26d580(0x204)](0x1, 0x1 - Math[_0x26d580(0x21e)](0x2, -0.1 * _0xed7c3a));
+                        break;
+                    case 0x3:
+                        _0x1723ee = this[_0x26d580(0x1f3)];
+                        break;
+                    default:
+                        _0x1723ee = this[_0x26d580(0x1f3)] * Math['min'](0x1, 0x1 - Math[_0x26d580(0x21e)](0.9, _0xed7c3a));
+                }
+                this[_0x26d580(0x18b)] += _0x1723ee, Math[_0x26d580(0x1e3)](this['angleDelta']) < 0.01 && (this['angle'] = this[_0x26d580(0x1f4)]);
+            }
+        }, requestAnimationFrame(function _0x171185(_0x5ea066) {
+            var _0x55ca2b = _0x535d1c;
+            if (0x0 === _0x3ecc4c[_0x55ca2b(0x1a6)] && (_0x3ecc4c[_0x55ca2b(0x1a6)] = _0x5ea066), _0x3ecc4c['deltaTime'] = _0x5ea066 - _0x3ecc4c[_0x55ca2b(0x1a6)], _0x3ecc4c['lastFrameTime'] = _0x5ea066, _0x3ecc4c[_0x55ca2b(0x203)] > 0x64 && (_0x3ecc4c['deltaTime'] = 16.7), _0x5400ef[_0x55ca2b(0x161)])
+                for (var _0x5bd220 in _0x5400ef[_0x55ca2b(0x161)]) {
+                    var _0x439d87 = _0x5400ef[_0x55ca2b(0x161)][_0x5bd220];
+                    _0x439d87 && _0x55ca2b(0x1a0) == typeof _0x439d87[_0x55ca2b(0x195)] && _0x439d87[_0x55ca2b(0x195)]();
+                }
+            requestAnimationFrame(_0x171185);
+        }), console[_0x535d1c(0x25c)](_0x535d1c(0x228));
+    }
+    var _0x463fbf = null;
+
+    function _0xa0e2cc() {
+        var _0x1990b9 = _0x48dd0f;
+        _0x5400ef[_0x1990b9(0xef)] && _0x5400ef[_0x1990b9(0xef)]['prototype'] && _0x5400ef[_0x1990b9(0xef)][_0x1990b9(0xe6)][_0x1990b9(0x225)] ? (_0x463fbf = _0x5400ef[_0x1990b9(0xef)][_0x1990b9(0xe6)]['draw'], _0x5400ef[_0x1990b9(0xef)][_0x1990b9(0xe6)][_0x1990b9(0x225)] = function(_0x49a5ab) {
+            var _0x3bd86f = _0x1990b9;
+            if (_0x22c105[_0x3bd86f(0x133)]) switch (this[_0x3bd86f(0x196)]) {
+                case 0x2:
+                case 0xe:
+                    break;
+                default:
+                    return;
+            }
+            _0x463fbf[_0x3bd86f(0x14e)](this, _0x49a5ab);
+        }, console[_0x1990b9(0x25c)](_0x1990b9(0x1f6))) : setTimeout(_0xa0e2cc, 0x1f4);
+    }
+
+    function _0x42a2e7() {
+        var _0x1bab5e = _0x48dd0f;
+        if (_0x13f573(), (function() {
+                var _0x2e6b40 = _0x161a,
+                    _0x5b6d95 = document[_0x2e6b40(0x159)](_0x2e6b40(0x215));
+                _0x5b6d95[_0x2e6b40(0x17e)] = _0x2e6b40(0x137), _0x5b6d95[_0x2e6b40(0x192)][_0x2e6b40(0x223)] = '0', _0x5b6d95[_0x2e6b40(0x192)][_0x2e6b40(0x1df)] = _0x2e6b40(0x1ca), document[_0x2e6b40(0x251)]['appendChild'](_0x5b6d95), _0x3ecc4c['UI'][_0x2e6b40(0x25d)] = _0x5b6d95;
+                var _0x4933bd = document['createElement']('div');
+                _0x4933bd['id'] = _0x2e6b40(0x1e2), _0x4933bd[_0x2e6b40(0x192)][_0x2e6b40(0x1df)] = _0x22c105[_0x2e6b40(0x1aa)] ? _0x2e6b40(0x1d4) : _0x2e6b40(0x1ca), document['body'][_0x2e6b40(0x178)](_0x4933bd), _0x3ecc4c['UI'][_0x2e6b40(0x126)] = _0x4933bd;
+                var _0x29879a = '\x0a\x20\x20<div\x20class=\x22rgz-container\x22\x20id=\x22rgz-menu\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22rgz-panel\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-title\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-title-main\x22>RGZ</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-title-sub\x22>Modpack</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22rgz-action-btn\x22\x20id=\x22rgz-settings-btn\x22\x20title=\x22UI\x20Settings\x22>⚙️</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20<!--\x20Settings\x20Panel\x20-->\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-panel\x22\x20id=\x22rgz-settings-panel\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-title\x22>UI\x20Customization</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-label\x22>Theme\x20Color</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22color\x22\x20id=\x22uiThemeColorPicker\x22\x20value=\x22' [_0x2e6b40(0x210)](_0x22c105[_0x2e6b40(0x19f)], '\x22\x20class=\x22rgz-color-picker\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatches\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#2196f3;\x22\x20data-color=\x22#2196f3\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#9c27b0;\x22\x20data-color=\x22#9c27b0\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#4caf50;\x22\x20data-color=\x22#4caf50\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#f44336;\x22\x20data-color=\x22#f44336\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#ff9800;\x22\x20data-color=\x22#ff9800\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#e91e63;\x22\x20data-color=\x22#e91e63\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#00bcd4;\x22\x20data-color=\x22#00bcd4\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-theme-swatch\x22\x20style=\x22background-color:\x20#ffeb3b;\x22\x20data-color=\x22#ffeb3b\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-container\x22\x20style=\x22margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-labels\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22>Background\x20Opacity</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-slider-label\x22\x20id=\x22opacityValue\x22>')[_0x2e6b40(0x210)](Math[_0x2e6b40(0x141)](0x64 * _0x22c105[_0x2e6b40(0x156)]), '%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22range\x22\x20min=\x2250\x22\x20max=\x22100\x22\x20value=\x22')['concat'](0x64 * _0x22c105[_0x2e6b40(0x156)], _0x2e6b40(0x185))[_0x2e6b40(0x210)](_0x22c105[_0x2e6b40(0x186)] ? _0x2e6b40(0x15b) : '', _0x2e6b40(0x216))['concat'](_0x22c105[_0x2e6b40(0x207)], _0x2e6b40(0x19c))[_0x2e6b40(0x210)](_0x109c2[_0x2e6b40(0x1eb)](function(_0x129b19) {
+                    var _0x291b8b = _0x2e6b40;
+                    return '<div\x20class=\x22rgz-color-swatch\x22\x20style=\x22background-color:\x20' ['concat'](_0x129b19, _0x291b8b(0x10c))[_0x291b8b(0x210)](_0x129b19, _0x291b8b(0xfe));
+                })[_0x2e6b40(0x189)](''), _0x2e6b40(0x21a))['concat'](_0x22c105[_0x2e6b40(0x11c)], _0x2e6b40(0x14a))['concat'](Math[_0x2e6b40(0x141)](_0x22c105['spinSpeed']), '</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22range\x22\x20min=\x2230\x22\x20max=\x22360\x22\x20value=\x22')[_0x2e6b40(0x210)](_0x22c105[_0x2e6b40(0x117)], _0x2e6b40(0x140))[_0x2e6b40(0x210)](_0x22c105[_0x2e6b40(0x147)] ? 'expanded' : '', _0x2e6b40(0x116))[_0x2e6b40(0x210)](_0x22c105[_0x2e6b40(0x147)] ? _0x2e6b40(0x199) : _0x2e6b40(0x244), '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22rgz-settings-label\x22>Nickname</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22nickSpooferInput\x22\x20class=\x22rgz-text-input\x22\x20style=\x22width:\x20200px;\x20text-align:\x20left;\x20overflow-x:\x20auto;\x20white-space:\x20nowrap;\x20overflow:\x20visible;\x22\x20value=\x22')[_0x2e6b40(0x210)](_0x22c105[_0x2e6b40(0x182)] || 'RGZ\x20Player', _0x2e6b40(0x250))[_0x2e6b40(0x210)](_0x22c105['spoofedNickColor'] || _0x2e6b40(0x1c5), _0x2e6b40(0x121))[_0x2e6b40(0x210)](_0x4537fc[_0x2e6b40(0x1eb)](function(_0x434d53) {
+                    var _0x4135bf = _0x2e6b40;
+                    return '<div\x20class=\x22rgz-color-swatch\x22\x20style=\x22background-color:\x20' [_0x4135bf(0x210)](_0x434d53['value'], _0x4135bf(0x10c))[_0x4135bf(0x210)](_0x434d53[_0x4135bf(0x1ea)], _0x4135bf(0x232))['concat'](_0x434d53[_0x4135bf(0x1a2)], _0x4135bf(0xfe));
+                })[_0x2e6b40(0x189)](''), _0x2e6b40(0x1f2));
+                document['body'][_0x2e6b40(0x1cd)](_0x2e6b40(0x246), _0x29879a), _0x3ecc4c['UI'][_0x2e6b40(0x157)] = document[_0x2e6b40(0x22c)](_0x2e6b40(0x166)), _0x3ecc4c['UI'][_0x2e6b40(0x157)] && (_0x3ecc4c['UI']['menu'][_0x2e6b40(0x192)][_0x2e6b40(0x1df)] = 'block', _0x22c105['menuVisible'] = !0x0);
+            }()), _0x3400f8(), _0x444f1f(), document['addEventListener'](_0x1bab5e(0x1b3), _0xfcb394), document[_0x1bab5e(0x239)](_0x1bab5e(0x14f), _0x57c28d), document[_0x1bab5e(0x239)](_0x1bab5e(0xf4), _0x56e32a, !0x0), _0x5e0397(), _0x22c105[_0x1bab5e(0x16b)]) {
+            var _0x2913aa = document[_0x1bab5e(0x22c)](_0x1bab5e(0x17d));
+            _0x2913aa && _0x2913aa[_0x1bab5e(0x239)](_0x1bab5e(0x25a), _0x18172c, !0x0);
+        }
+        _0x380352(), _0x35aa3e(), _0xa0e2cc(), _0x22c105[_0x1bab5e(0x11c)] || (_0x22c105[_0x1bab5e(0x11c)] = _0x2a660d, _0x4ac5ff(_0x1bab5e(0x11c), _0x2a660d)), document['body']['style'][_0x1bab5e(0x11c)] = _0x22c105[_0x1bab5e(0x11c)], console[_0x1bab5e(0x25c)](_0x1bab5e(0x10a)), _0x2eded5(), _0x22c105[_0x1bab5e(0x214)] && _0x2489d6(), setInterval(_0x587279, 0x1f4), setInterval(_0x10e058, 0x1f4), setTimeout(function() {
+            var _0x576c12 = _0x1bab5e,
+                _0x5b6a01 = document[_0x576c12(0x22c)](_0x576c12(0x166));
+            _0x5b6a01 && (_0x5b6a01[_0x576c12(0x192)][_0x576c12(0x1df)] = 'block', _0x22c105['menuVisible'] = !0x0, _0x4ac5ff('toggleMenu', !0x0), console['log']('[RGZ\x20Modpack]\x20Menu\x20visibility\x20enforced'));
+        }, 0x1f4), console[_0x1bab5e(0x25c)](_0x1bab5e(0x231));
+    }
+    _0x48dd0f(0x1dc) === document['readyState'] ? document[_0x48dd0f(0x239)](_0x48dd0f(0x243), _0x42a2e7) : _0x42a2e7();
+})()));
